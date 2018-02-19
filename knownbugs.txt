@@ -1,0 +1,18 @@
+Firefox:
+File name is not shown on Visualizer (JS error thrown in console) *DONE*
+Range timeline in settings not properly styled *DONE*
+Range slider on timeline in settings not properly styled *DONE*
+
+Chrome:
+NaN:NaN (minutes:seconds) is displayed when calculating track duration
+
+All Browsers:
+(Not really a bug) Minutes and seconds missing 0 in front if less than 10
+(Not really a bug) Track duration does not show values over 1 hour
+
+CodePen:
+Strange padding / height on settings sliders *DONE*
+
+Mobile:
+Visualizer doesn't even work lol
+Seeker does not work

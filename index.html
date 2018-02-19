@@ -1,0 +1,84 @@
+<html>
+<head>
+    <title>Visualizer 98</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="main">
+<!-- Visualizer Section -->
+  <div id="visualizer">
+    <div id="visualizerTop">
+      <label for="visualizerTop">Visualizer 98</label>
+      <span id="visualizerFile"></label>
+    </div>
+    <!-- Draw canvas for visualizer -->
+    <canvas id="canvas"></canvas>
+    <!-- Display audio controls -->
+    <audio id="audio" ontimeupdate="trackTime()"></audio><br>
+    <div id="audioPlayer">
+      <!-- Get and only accept audio files -->
+      <input type="file" id="file" accept="audio/*" class="inputfile" >
+      <label for="file">Choose a file...</label>
+    	<button id="playButton" class="play">P</button>
+      <div id="timeline">
+      		  <div id="seeker"></div>
+      </div>
+      <div id="time">
+        <span id="trackTime">00:00 / 00:00</span>
+      </div>
+    </div>
+  </div><br><br>
+
+<!-- Visualizer Settings Section -->
+  <div id="settingsBar">
+    <label>Visualizer Settings</label>
+  </div>
+  <div id="settings">
+    <table>
+      <!-- Bar color -->
+      <tr>
+        <td><label>Bar Color</label></td>
+        <td><input id="selectBarColor" type="color" value="#ff0000"></td>
+        <td></td>
+      </tr>
+    <!-- Background color -->
+    <tr>
+      <td><label>Background</label></td>
+      <td><input id="selectBGColor" type="color" value="#007f7f"></td>
+      <td></td>
+    </tr>
+    <!-- Bar width -->
+    <tr>
+      <td><label>Bar Width</label></td>
+      <td><input type="range" min="1" max="20" id="selectBarWidth" class="slider"></td>
+      <td><p id="widthOutput"></td>
+    </tr>
+    <!-- Smoothing amount -->
+    <tr>
+      <td><label>Smoothing</label></td>
+      <td><input type="range" min=".4" max=".99" id="selectSmoothing" step=".01" class="slider"></td>
+      <td><p id="smoothingOutput"></p></td>
+    </tr>
+    <!-- Select style -->
+    <tr>
+      <td><label>Style</label></td>
+      <td>
+        <input type="range" min="1" max="2" id="selectStyle" class="slider">
+      </td>
+      <td><p id="styleOutput"></p></td>
+    </tr>
+    </table>
+  </div>
+
+  <!-- Test Output Section -->
+  <p id="test">
+  </p>
+</div>
+
+  <!-- Load Visualizer Script -->
+  <script type="text/javascript" src="script.js"></script>
+
+  <div id="footer"></div>
+</body>
+</html>
