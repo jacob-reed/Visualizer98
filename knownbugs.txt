@@ -16,3 +16,7 @@ Strange padding / height on settings sliders *DONE*
 Mobile:
 Visualizer doesn't even work lol
 Seeker does not work
+
+Slider
+Choose starting color and ending colored
+Slowly dropping line thingy on top of bars

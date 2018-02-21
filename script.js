@@ -29,7 +29,6 @@ file.onchange = function() {
   // Detail level of bars
   analyser.fftSize = 2048;
   var bufferLength = analyser.frequencyBinCount;
-  console.log(bufferLength);
   var dataArray = new Uint8Array(bufferLength);
 
   // Set up canvas
@@ -38,6 +37,15 @@ file.onchange = function() {
   canvas.height = 1000;
   var width = canvas.width;
   var height = canvas.height;
+
+  // Enable play / pause Button
+  var playDiv = document.getElementById('playIcon');
+  var pauseDiv = document.getElementById('pauseIcon');
+  playDiv.style.display = 'none';
+  pauseDiv.style.display = 'block';
+  
+  var pButton = document.getElementById('playButton');
+  pButton.disabled = false;
 
   // Paint canvas!
   function paintCanvas() {
@@ -185,16 +193,25 @@ function timeUpdate() {
 
 // Play and Pause
 function play() {
+  var playDiv = document.getElementById('playIcon');
+  var pauseDiv = document.getElementById('pauseIcon');
+
   if (audio.paused) { // Unpause
     audio.play();
     // Class change for styling
     playButton.className = "";
     playButton.className = "pause";
+    // Button visibility
+    playDiv.style.display = 'none';
+    pauseDiv.style.display = 'block';
   } else { // Pause
     audio.pause();
     // Class change for styling
     playButton.className = "";
     playButton.className = "play";
+    // Button visibility
+    playDiv.style.display = 'block';
+    pauseDiv.style.display = 'none';
   }
 }
 

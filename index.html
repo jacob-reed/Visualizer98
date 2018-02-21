@@ -2,6 +2,7 @@
 <head>
     <title>Visualizer 98</title>
     <link rel="stylesheet" href="style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 </head>
 <body>
 
@@ -19,8 +20,11 @@
     <div id="audioPlayer">
       <!-- Get and only accept audio files -->
       <input type="file" id="file" accept="audio/*" class="inputfile" >
-      <label for="file">Choose a file...</label>
-    	<button id="playButton" class="play">P</button>
+      <label for="file"><i class="fas fa-upload"></i> Choose a file...</label>
+    	<button id="playButton" class="play" disabled>
+        <div id="playIcon"><i class="fas fa-play"></i></div>
+        <div id="pauseIcon"><i class="fas fa-pause"></i></div>
+      </button>
       <div id="timeline">
       		  <div id="seeker"></div>
       </div>
