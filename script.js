@@ -43,7 +43,7 @@ file.onchange = function() {
   var pauseDiv = document.getElementById('pauseIcon');
   playDiv.style.display = 'none';
   pauseDiv.style.display = 'block';
-  
+
   var pButton = document.getElementById('playButton');
   pButton.disabled = false;
 
