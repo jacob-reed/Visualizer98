@@ -243,3 +243,16 @@ function trackTime() {
   document.getElementById('trackTime').innerHTML =
   cm + ':' + cs + ' / ' + dm + ':' + ds;
 }
+
+// icons
+function showWindow1() {
+   document.getElementById('window1').style.display = "block";
+}
+
+function showWindow2() {
+   document.getElementById('window1').style.display = "block";
+}
+
+function showWindow3() {
+   document.getElementById('window1').style.display = "block";
+}
