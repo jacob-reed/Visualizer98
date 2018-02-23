@@ -247,12 +247,15 @@ function trackTime() {
 // icons
 function showWindow1() {
    document.getElementById('window1').style.display = "block";
+   document.getElementById('window1top').style.display = "block";
 }
 
 function showWindow2() {
-   document.getElementById('window1').style.display = "block";
+   document.getElementById('window2').style.display = "block";
+   document.getElementById('window2top').style.display = "block";
 }
 
 function showWindow3() {
-   document.getElementById('window1').style.display = "block";
+   document.getElementById('window3').style.display = "block";
+  document.getElementById('window3top').style.display = "block";
 }

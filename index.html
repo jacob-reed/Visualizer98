@@ -1,17 +1,19 @@
 <html>
+
 <head>
-    <title>Visualizer 98</title>
-    <link rel="stylesheet" href="style.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <title>Visualizer 98</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 </head>
+
 <body>
 
-<div id="main">
-<!-- Visualizer Section -->
-  <div id="visualizer">
-    <div id="visualizerTop">
-      <label for="visualizerTop">Visualizer 98</label>
-      <span id="visualizerFile"></label>
+  <div id="main">
+    <!-- Visualizer Section -->
+    <div id="visualizer">
+      <div id="visualizerTop">
+        <label for="visualizerTop">Visualizer 98</label>
+        <span id="visualizerFile"></label>
     </div>
     <!-- Draw canvas for visualizer -->
     <canvas id="canvas"></canvas>
@@ -34,7 +36,7 @@
     </div>
   </div><br><br>
 
-<!-- Visualizer Settings Section -->
+  <!-- Visualizer Settings Section -->
   <div id="settingsBar">
     <label>Visualizer Settings</label>
   </div>
@@ -46,70 +48,97 @@
         <td><input id="selectBarColor" type="color" value="#ff0000"></td>
         <td></td>
       </tr>
-    <!-- Background color -->
-    <tr>
-      <td><label>Background</label></td>
-      <td><input id="selectBGColor" type="color" value="#007f7f"></td>
-      <td></td>
-    </tr>
-    <!-- Bar width -->
-    <tr>
-      <td><label>Bar Width</label></td>
-      <td><input type="range" min="1" max="20" id="selectBarWidth" class="slider"></td>
-      <td><p id="widthOutput"></td>
-    </tr>
-    <!-- Smoothing amount -->
-    <tr>
-      <td><label>Smoothing</label></td>
-      <td><input type="range" min=".4" max=".99" id="selectSmoothing" step=".01" class="slider"></td>
-      <td><p id="smoothingOutput"></p></td>
-    </tr>
-    <!-- Select style -->
-    <tr>
-      <td><label>Style</label></td>
-      <td>
-        <input type="range" min="1" max="2" id="selectStyle" class="slider">
-      </td>
-      <td><p id="styleOutput"></p></td>
-    </tr>
+      <!-- Background color -->
+      <tr>
+        <td><label>Background</label></td>
+        <td><input id="selectBGColor" type="color" value="#007f7f"></td>
+        <td></td>
+      </tr>
+      <!-- Bar width -->
+      <tr>
+        <td><label>Bar Width</label></td>
+        <td><input type="range" min="1" max="20" id="selectBarWidth" class="slider"></td>
+        <td>
+          <p id="widthOutput">
+        </td>
+      </tr>
+      <!-- Smoothing amount -->
+      <tr>
+        <td><label>Smoothing</label></td>
+        <td><input type="range" min=".4" max=".99" id="selectSmoothing" step=".01" class="slider"></td>
+        <td>
+          <p id="smoothingOutput"></p>
+        </td>
+      </tr>
+      <!-- Select style -->
+      <tr>
+        <td><label>Style</label></td>
+        <td>
+          <input type="range" min="1" max="2" id="selectStyle" class="slider">
+        </td>
+        <td>
+          <p id="styleOutput"></p>
+        </td>
+      </tr>
     </table>
   </div>
 
   <!-- Icons -->
   <div id="icons">
     <div id="icon1" onclick="showWindow1()">
-        <i class="fas fa-question-circle fa-2x"></i><br>
-        <p>Help</p>
+      <i class="fas fa-question-circle fa-2x"></i><br>
+      <p>Help</p>
     </div>
     <div id="icon2" onclick="showWindow2()">
-        <i class="far fa-file fa-2x"></i><br>
-        <p>About</p>
+      <i class="far fa-file fa-2x"></i><br>
+      <p>About</p>
     </div>
     <div id="icon3" onclick="showWindow3()">
-        <i class="fas fa-adjust fa-2x"></i>
-        <p>Themes</p>
+      <i class="fas fa-adjust fa-2x"></i>
+      <p>Themes</p>
     </div>
   </div>
 
+  <!-- Windows -->
   <div id="windows">
+    <div id="window1top">
+      <label for="window1top">Help</label>
+    </div>
     <div id="window1">
       <p>Testing!</p>
     </div>
+
+    <div id="window2">
+      <div id="window2top">
+        <label for="window2top">About</label>
+      </div>
+      <p>Testing!</p>
+    </div>
   </div>
+
+  <div id="window3">
+    <div id="window3top">
+      <label for="window3top">Themes</label>
+    </div>
+    <p>Testing!</p>
+  </div>
+  </div>
+
   <!-- Test Output Section -->
   <p id="test">
   </p>
-</div>
+  </div>
 
   <!-- Load Visualizer Script -->
   <script type="text/javascript" src="script.js"></script>
 
   <div id="footer">
     <div id="startFooter">
-    <label for="startFooter">
+      <label for="startFooter">
       <i class="fas fa-circle-notch"></i>
     </label>
-  </div>
+    </div>
   </div>
 </body>
+
 </html>
