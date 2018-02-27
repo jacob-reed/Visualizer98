@@ -12,6 +12,7 @@
     <!-- Visualizer Section -->
     <div id="visualizer">
       <div id="visualizerTop">
+        <i class="fas fa-music"></i>
         <label for="visualizerTop">Visualizer 98</label>
         <span id="visualizerFile"></label>
     </div>
@@ -38,7 +39,8 @@
 
   <!-- Visualizer Settings Section -->
   <div id="settingsBar">
-    <label>Visualizer Settings</label>
+    <i class="fas fa-sliders-h"></i>
+    <label for="settingsBar">Visualizer Settings</label>
   </div>
   <div id="settings">
     <table>
@@ -90,7 +92,7 @@
       <p>Help</p>
     </div>
     <div id="icon2" onclick="showWindow2()">
-      <i class="far fa-file fa-2x"></i><br>
+      <i class="fas fa-info-circle fa-2x"></i><br>
       <p>About</p>
     </div>
     <div id="icon3" onclick="showWindow3()">
@@ -102,26 +104,31 @@
   <!-- Windows -->
   <div id="windows">
     <div id="window1top">
+      <i class="fas fa-question-circle"></i>
       <label for="window1top">Help</label>
+      <label for="window1close"><i class="fas fa-stop" onclick="closeWindow1()"></i></label>
     </div>
     <div id="window1">
       <p>Testing!</p>
     </div>
 
+    <div id="window2top">
+      <i class="fas fa-info-circle"></i>
+      <label for="window2top">About</label>
+      <label for="window2close"><i class="fas fa-stop" onclick="closeWindow2()"></i></label>
+    </div>
     <div id="window2">
-      <div id="window2top">
-        <label for="window2top">About</label>
-      </div>
       <p>Testing!</p>
     </div>
-  </div>
 
-  <div id="window3">
     <div id="window3top">
+      <i class="fas fa-adjust"></i>
       <label for="window3top">Themes</label>
+      <label for="window3close"><i class="fas fa-stop" onclick="closeWindow3()"></i></label>
     </div>
-    <p>Testing!</p>
-  </div>
+    <div id="window3">
+      <p>Testing!</p>
+    </div>
   </div>
 
   <!-- Test Output Section -->
@@ -136,7 +143,39 @@
     <div id="startFooter">
       <label for="startFooter">
       <i class="fas fa-circle-notch"></i>
-    </label>
+      </label>
+    </div>
+    <div id="footerWindows">
+      <div id="window98">
+        <i class="fas fa-music"></i>
+        <label for="window98">
+        Visualizer 98
+        </label>
+      </div>
+      <div id="window98settings">
+        <i class="fas fa-sliders-h"></i>
+        <label for="window98settings">
+        Visualizer Settings
+        </label>
+      </div>
+      <div id="windowhelp">
+        <i class="fas fa-question-circle"></i>
+        <label for="windowhelp">
+        Help
+        </label>
+      </div>
+      <div id="windowabout">
+        <i class="fas fa-info-circle"></i>
+        <label for="windowabout">
+        About
+        </label>
+      </div>
+      <div id="windowthemes">
+        <i class="fas fa-adjust"></i>
+        <label for="windowthemes">
+        Themes
+        </label>
+      </div>
     </div>
   </div>
 </body>

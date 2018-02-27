@@ -228,16 +228,16 @@ function getPosition(el) {
 function trackTime() {
   // For current track time
   var c = Math.floor(audio.currentTime);
-  var cm = Math.floor(c % 3600 / 60); // Minutes
-  var cs = Math.floor(c % 3600 % 60); // Seconds
-  var tmpCs = Math.floor(c % 3600 % 60); // Seconds
+  var cm = Math.floor(c % 3600 / 60) || 0; // Minutes
+  var cs = Math.floor(c % 3600 % 60) || 0; // Seconds
+  var tmpCs = Math.floor(c % 3600 % 60) || 0; // Seconds
   var cs = tmpCs < 10 ? '0' + tmpCs : tmpCs;
 
   // For track duration
   var d = Math.floor(audio.duration);
-  var dm = Math.floor(d % 3600 / 60); // Minutes
-  var ds = Math.floor(d % 3600 % 60); // Seconds
-  var tmpDs = Math.floor(d % 3600 % 60); // Seconds
+  var dm = Math.floor(d % 3600 / 60) || 0; // Minutes
+  var ds = Math.floor(d % 3600 % 60) || 0; // Seconds
+  var tmpDs = Math.floor(d % 3600 % 60) || 0; // Seconds
   var ds = tmpDs < 10 ? '0' + tmpDs : tmpDs;
 
   document.getElementById('trackTime').innerHTML =
@@ -246,16 +246,38 @@ function trackTime() {
 
 // icons
 function showWindow1() {
-   document.getElementById('window1').style.display = "block";
-   document.getElementById('window1top').style.display = "block";
+  document.getElementById('window1').style.visibility = "visible";
+  document.getElementById('window1top').style.visibility = "visible";
+  document.getElementById('windowhelp').style.display = "inline-block";
 }
 
 function showWindow2() {
-   document.getElementById('window2').style.display = "block";
-   document.getElementById('window2top').style.display = "block";
+  document.getElementById('window2').style.visibility = "visible";
+  document.getElementById('window2top').style.visibility = "visible";
+  document.getElementById('windowabout').style.display = "inline-block";
 }
 
 function showWindow3() {
-   document.getElementById('window3').style.display = "block";
-  document.getElementById('window3top').style.display = "block";
+  document.getElementById('window3').style.visibility = "visible";
+  document.getElementById('window3top').style.visibility = "visible";
+  document.getElementById('windowthemes').style.display = "inline-block";
+}
+
+// close buttons
+function closeWindow1() {
+  document.getElementById('window1').style.visibility = "hidden";
+  document.getElementById('window1top').style.visibility = "hidden";
+  document.getElementById('windowhelp').style.display = "none";
+}
+
+function closeWindow2() {
+  document.getElementById('window2').style.visibility = "hidden";
+  document.getElementById('window2top').style.visibility = "hidden";
+  document.getElementById('windowabout').style.display = "none";
+}
+
+function closeWindow3() {
+  document.getElementById('window3').style.visibility = "hidden";
+  document.getElementById('window3top').style.visibility = "hidden";
+  document.getElementById('windowthemes').style.display = "none";
 }
