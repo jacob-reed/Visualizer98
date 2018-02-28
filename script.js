@@ -69,6 +69,8 @@ file.onchange = function() {
       styleName = "Mirror";
     } else if (visualStyle == "2") {
       styleName = "Bar";
+    } else if (visualStyle == "3") {
+      styleName = "Tunnel";
     }
     document.getElementById("styleOutput").innerHTML = styleName;
     // Get background color from user
@@ -104,6 +106,10 @@ file.onchange = function() {
       } else if (visualStyle == "2") { // Normal "bar style"
         barHeight = dataArray[i] * 3.82;
         canvasCtx.fillRect(x, height - barHeight, barWidth, barHeight);
+      } else if (visualStyle == "3") { // "Tunnel"
+        barHeight = dataArray[i] * 1.95;
+        canvasCtx.fillRect(x, 0, barWidth, barHeight);
+        canvasCtx.fillRect(x, 1000, barWidth, -1 * barHeight); // Upside down
       }
       x += barWidth + 2;
       // Repeat for colored bars
@@ -119,6 +125,9 @@ file.onchange = function() {
       } else if (visualStyle == "2") { // Normal "bar style"
         barHeight = dataArray[i] * 3.82;
         canvasCtx.fillRect(y, height - barHeight, barWidth, barHeight);
+      } else if (visualStyle ==  "3") { // "Tunnel"
+        canvasCtx.fillRect(y, 0, barWidth, barHeight); // Upside down
+        canvasCtx.fillRect(y, 1000, barWidth, -1 * barHeight);
       }
       y += barWidth + 2;
     }
@@ -281,3 +290,12 @@ function closeWindow3() {
   document.getElementById('window3top').style.visibility = "hidden";
   document.getElementById('windowthemes').style.display = "none";
 }
+
+// Get current time
+function currentTime() {
+  var d = new Date();
+  var n = d.toLocaleTimeString();
+  document.getElementById('currentTime').innerHTML = n;
+}
+
+setInterval(currentTime, 1000);

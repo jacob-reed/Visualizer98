@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro');
 body {
-   background: rgb(58, 56, 142);
+   background: rgb(166, 110, 130);
   /* background: linear-gradient(135deg, rgb(0, 170, 170), rgb(0, 110, 110));
   background-image: url(pattern.jpg); */
   font-family: 'Open Sans', sans-serif;
@@ -469,6 +469,7 @@ td:nth-child(2) {
   display: inline-block;
   padding: 5px 0px 5px 5px;
   transition: background-color 0.5s ease;
+  background-color: rgb(230, 230, 230);
 }
 #window98:hover {
   background-color: rgb(170, 170, 170);
@@ -480,6 +481,7 @@ td:nth-child(2) {
   display: inline-block;
   padding: 5px 0px 5px 5px;
   transition: background-color 0.5s ease;
+  background-color: rgb(230, 230, 230);
 }
 #window98settings:hover {
   background-color: rgb(170, 170, 170);
@@ -490,6 +492,7 @@ td:nth-child(2) {
   height: 20px;
   padding: 5px 0px 5px 5px;
   transition: background-color 0.5s ease;
+  background-color: rgb(230, 230, 230);
   display: none;
 }
 #windowhelp:hover {
@@ -501,6 +504,7 @@ td:nth-child(2) {
   height: 20px;
   padding: 5px 0px 5px 5px;
   transition: background-color 0.5s ease;
+  background-color: rgb(230, 230, 230);
   display: none;
 }
 #windowabout:hover {
@@ -512,10 +516,18 @@ td:nth-child(2) {
   height: 20px;
   padding: 5px 0px 5px 5px;
   transition: background-color 0.5s ease;
+  background-color: rgb(230, 230, 230);
   display: none;
 }
 #windowthemes:hover {
   background-color: rgb(170, 170, 170);
+}
+
+#showTime {
+  float: right;
+  height: 30px;
+  margin-top: 5px;
+  width: 100px;
 }
 
 .fa-circle-notch {
@@ -534,6 +546,14 @@ label[for=window1close], label[for=window2close], label[for=window3close] {
   cursor: pointer;
 }
 
+label[for=window1top], label[for=window2top], label[for=window3top] {
+  margin-left:5px;
+}
+
 label[for=window98], label[for=window98settings], label[for=windowhelp], label[for=windowabout], label[for=windowthemes]{
   padding-left: 3px;
+}
+
+#currentTime {
+  float: right;
 }

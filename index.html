@@ -6,7 +6,7 @@
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 </head>
 
-<body>
+<body onload="currentTime()">
 
   <div id="main">
     <!-- Visualizer Section -->
@@ -76,7 +76,7 @@
       <tr>
         <td><label>Style</label></td>
         <td>
-          <input type="range" min="1" max="2" id="selectStyle" class="slider">
+          <input type="range" min="1" max="3" id="selectStyle" class="slider">
         </td>
         <td>
           <p id="styleOutput"></p>
@@ -175,6 +175,9 @@
         <label for="windowthemes">
         Themes
         </label>
+      </div>
+      <div id="showTime">
+        <span id="currentTime"></p>
       </div>
     </div>
   </div>
