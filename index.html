@@ -11,7 +11,7 @@
   <div id="main">
     <!-- Visualizer Section -->
     <div id="visualizer">
-      <div id="visualizerTop">
+      <div id="visualizerheader">
         <i class="fas fa-music"></i>
         <label for="visualizerTop">Visualizer 98</label>
         <span id="visualizerFile"></label>
@@ -38,51 +38,57 @@
   </div><br><br>
 
   <!-- Visualizer Settings Section -->
-  <div id="settingsBar">
-    <i class="fas fa-sliders-h"></i>
-    <label for="settingsBar">Visualizer Settings</label>
-  </div>
   <div id="settings">
-    <table>
-      <!-- Bar color -->
-      <tr>
-        <td><label>Bar Color</label></td>
-        <td><input id="selectBarColor" type="color" value="#ff0000"></td>
-        <td></td>
-      </tr>
-      <!-- Background color -->
-      <tr>
-        <td><label>Background</label></td>
-        <td><input id="selectBGColor" type="color" value="#007f7f"></td>
-        <td></td>
-      </tr>
-      <!-- Bar width -->
-      <tr>
-        <td><label>Bar Width</label></td>
-        <td><input type="range" min="1" max="20" id="selectBarWidth" class="slider"></td>
-        <td>
-          <p id="widthOutput">
-        </td>
-      </tr>
-      <!-- Smoothing amount -->
-      <tr>
-        <td><label>Smoothing</label></td>
-        <td><input type="range" min=".4" max=".99" id="selectSmoothing" step=".01" class="slider"></td>
-        <td>
-          <p id="smoothingOutput"></p>
-        </td>
-      </tr>
-      <!-- Select style -->
-      <tr>
-        <td><label>Style</label></td>
-        <td>
-          <input type="range" min="1" max="3" id="selectStyle" class="slider">
-        </td>
-        <td>
-          <p id="styleOutput"></p>
-        </td>
-      </tr>
-    </table>
+    <div id="settingsheader">
+      <i class="fas fa-sliders-h"></i>
+      <label for="settingsheader">Visualizer Settings</label>
+    </div>
+    <div id="settingswindow">
+      <table>
+        <!-- Bar color -->
+        <tr>
+          <td><label>Bar Color</label></td>
+          <td><input id="selectBarColor" type="color" value="#ff0000"></td>
+          <td>
+            <p id="barcolorOutput">
+          </td>
+        </tr>
+        <!-- Background color -->
+        <tr>
+          <td><label>Background</label></td>
+          <td><input id="selectBGColor" type="color" value="#007f7f"></td>
+          <td>
+            <p id="bgcolorOutput">
+          </td>
+        </tr>
+        <!-- Bar width -->
+        <tr>
+          <td><label>Bar Width</label></td>
+          <td><input type="range" min="1" max="20" id="selectBarWidth" class="slider"></td>
+          <td>
+            <p id="widthOutput">
+          </td>
+        </tr>
+        <!-- Smoothing amount -->
+        <tr>
+          <td><label>Smoothing</label></td>
+          <td><input type="range" min=".4" max=".99" id="selectSmoothing" step=".01" class="slider"></td>
+          <td>
+            <p id="smoothingOutput"></p>
+          </td>
+        </tr>
+        <!-- Select style -->
+        <tr>
+          <td><label>Style</label></td>
+          <td>
+            <input type="range" min="1" max="3" id="selectStyle" class="slider">
+          </td>
+          <td>
+            <p id="styleOutput"></p>
+          </td>
+        </tr>
+      </table>
+    </div>
   </div>
 
   <!-- Icons -->
@@ -139,6 +145,7 @@
   <!-- Load Visualizer Script -->
   <script type="text/javascript" src="script.js"></script>
 
+  <!-- Draw "footer" -->
   <div id="footer">
     <div id="startFooter">
       <label for="startFooter">

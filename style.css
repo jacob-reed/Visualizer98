@@ -10,7 +10,7 @@ body {
   position: absolute;
 }
 
-#visualizerTop {
+#visualizerheader {
   width: 780px;
   padding: 0 10px 0 10px;
   height: 20px;
@@ -18,17 +18,19 @@ body {
   border-radius: 1px 1px 0 0;
   font-size: .9em;
   font-family: 'Source Sans Pro', sans-serif;
+  cursor: move;
 }
 
-label[for=visualizerTop] {
+label[for=visualizerheader] {
   padding-left: 5px;
 }
 
 #visualizer {
   width: 800px;
   height: 320px;
-  margin-left: 30px;
-  margin-top: 60px;
+  top: 65px;
+  left: 35px;
+  position: absolute;
   /* Shadow */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
               0 6px 20px 0 rgba(0, 0, 0, 0.2);
@@ -134,30 +136,35 @@ label[for=visualizerTop] {
 }
 
 /* Settings */
-#settingsBar {
+#settings {
+  position: absolute;
+  top: 440px;
+}
+
+#settingsheader {
   background-color: rgb(220, 220, 220);
   height: 20px;
-  margin-top: 10px;
-  width: 280px;
+  width: 290px;
   padding: 0 10px 0 10px;
   left: 60px;
   font-size: .9em;
   font-family: 'Source Sans Pro', sans-serif;
   border-radius: 1px 1px 0 0;
   position: relative;
+  cursor: move;
   /* Shadow */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
               0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
-label[for=settingsBar] {
+label[for=settings] {
   padding-left: 5px;
 }
 
-#settings {
+#settingswindow {
   background-color: rgb(240, 240, 240);
   padding: 8px 10px 8px 10px;
-  width: 280px;
+  width: 290px;
   left: 60px;
   border-radius: 0 0 1px 1px;
   position: relative;
@@ -436,6 +443,7 @@ td:nth-child(2) {
   top: 0;
   height: 30px;
   width: 100%;
+  min-width: 910px;
   background-color: rgb(240, 240, 240);
   border-radius: 1px 1px 0 0;
   /* Shadow */
