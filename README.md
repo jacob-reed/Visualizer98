@@ -1,2 +1,2 @@
 # Visualizer98
-UNIX Visualizer from yesteryear
+Audio visualizer from yesteryear
