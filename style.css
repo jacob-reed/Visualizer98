@@ -1,13 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro');
 body {
-   background: rgb(166, 110, 130);
-  /* background: linear-gradient(135deg, rgb(0, 170, 170), rgb(0, 110, 110));
-  background-image: url(pattern.jpg); */
+  /* background: rgb(166, 110, 130); */
+  background: linear-gradient(135deg, rgb(0, 170, 170), rgb(0, 110, 110));
+  /* background-image: url(pattern.jpg); */
   font-family: 'Open Sans', sans-serif;
   margin: 0px;
   width: 100%;
   min-width: 910px;
   position: absolute;
+
+  /* Disable text selection when dragging */
+  -webkit-user-select: none;
+     -moz-user-select: -moz-none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 #visualizerheader {
