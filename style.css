@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro');
 body {
-  /* background: rgb(166, 110, 130); */
-  background: linear-gradient(135deg, rgb(0, 170, 170), rgb(0, 110, 110));
+  background: rgb(110, 118, 170); */
+  /* background: linear-gradient(135deg, rgb(0, 170, 170), rgb(0, 110, 110)); */
   /* background-image: url(pattern.jpg); */
   font-family: 'Open Sans', sans-serif;
   margin: 0px;
