@@ -27,6 +27,11 @@ body {
   cursor: move;
 }
 
+#visualizerheader svg {
+  font-size: .8em;
+  margin-right: 5px;
+}
+
 label[for=visualizerheader] {
   padding-left: 5px;
 }
@@ -161,6 +166,11 @@ label[for=visualizerheader] {
   /* Shadow */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
               0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+#settingsheader svg {
+  font-size: .8em;
+  margin-right: 5px;
 }
 
 label[for=settings] {
@@ -341,6 +351,10 @@ td:nth-child(2) {
 
 /* Windows */
 #window1 {
+  position: absolute;
+}
+
+#window1content {
   width: 250px;
   visibility: hidden;
   height: 110px;
@@ -357,7 +371,7 @@ td:nth-child(2) {
               0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
-#window1top {
+#window1header {
   background-color: rgb(220, 220, 220);
   height: 20px;
   width: 250px;
@@ -369,12 +383,17 @@ td:nth-child(2) {
   top: 444px;
   left: 390px;
   position: absolute;
+  cursor: move;
   /* Shadow */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
               0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
 #window2 {
+  position: absolute;
+}
+
+#window2content {
   width: 250px;
   visibility: hidden;
   height: 110px;
@@ -391,7 +410,7 @@ td:nth-child(2) {
               0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
-#window2top {
+#window2header {
   background-color: rgb(220, 220, 220);
   height: 20px;
   width: 250px;
@@ -403,12 +422,17 @@ td:nth-child(2) {
   position: absolute;
   top: 474px;
   left: 430px;
+  cursor: move;
   /* Shadow */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
               0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
 #window3 {
+  position: absolute;
+}
+
+#window3content {
   width: 250px;
   visibility: hidden;
   height: 110px;
@@ -425,7 +449,7 @@ td:nth-child(2) {
               0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
-#window3top {
+#window3header {
   background-color: rgb(220, 220, 220);
   height: 20px;
   width: 250px;
@@ -437,9 +461,15 @@ td:nth-child(2) {
   position: absolute;
   top: 514px;
   left: 470px;
+  cursor: move;
   /* Shadow */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
               0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+#window3header svg, #window2header svg, #window1header svg {
+  font-size: .8em;
+  cursor: move;
 }
 
 /* Footer */
@@ -502,7 +532,7 @@ td:nth-child(2) {
 }
 
 #windowhelp {
-  width: 50px;
+  width: 55px;
   height: 20px;
   padding: 5px 0px 5px 5px;
   transition: background-color 0.5s ease;
@@ -514,7 +544,7 @@ td:nth-child(2) {
 }
 
 #windowabout {
-  width: 60px;
+  width: 65px;
   height: 20px;
   padding: 5px 0px 5px 5px;
   transition: background-color 0.5s ease;
@@ -526,7 +556,7 @@ td:nth-child(2) {
 }
 
 #windowthemes {
-  width: 70px;
+  width: 75px;
   height: 20px;
   padding: 5px 0px 5px 5px;
   transition: background-color 0.5s ease;
@@ -560,7 +590,7 @@ label[for=window1close], label[for=window2close], label[for=window3close] {
   cursor: pointer;
 }
 
-label[for=window1top], label[for=window2top], label[for=window3top] {
+label[for=window1header], label[for=window2header], label[for=window3header] {
   margin-left:5px;
 }
 
