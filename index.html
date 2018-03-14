@@ -116,7 +116,33 @@
         <label for="window1close"><i class="fas fa-stop" onclick="closeWindow1()"></i></label>
       </div>
       <div id="window1content">
-        <p>Testing!</p>
+        <a href="#" onclick="toggleWindow1Span1()"><h3>Getting Started</h3></a>
+        <p><span id="window1Span1">
+          Visualizer 98 relies on locally stored audio files to create its visualizations.
+          In order to upload a file, the user must click the "Choose a file..." button located at the bottom of the main visualizer window.
+          Once clicked, a prompt will appear and allow the user to browse local storage for an audio file.
+          Browse to and select your desired audio file in order to begin the visualization
+        </span></p>
+        <a href="#" onclick="toggleWindow1Span2()"><h3>Using the Visualizer</h3></a>
+        <p><span id="window1Span2">
+        Once an audio file is selected, the visualizer will immediately begin playback and displaying a visual representation of the audio file.
+        The pause / play button enables the user to pause and resume playback of the selected audio file.<br><br>
+        The scrubber enables the user to "scrub" to a different point of playback.
+        "Scrubbing" is completed by clicking and holding the black square scrubber toggle to a point of playback.
+        Once the click is released, the audio will resume playback at the new point of playback.<br><br>
+        If desired, the user is free to select a new audio file by once again clicking the "Choose a file..." button.
+        </span></p>
+        <a href="#" onclick="toggleWindow1Span3()"><h3>Customization</h3></a>
+        <p id="window1Span3">
+        The "Visualzer Settings" window allows users the manipulate the look and feel of an active visualizer.
+        Settings include <span id="bold">Bar Color</span>, <span id="bold">Background Color</span>,
+          <span id="bold">Bar Width</span>, <span id="bold">Smoothing</span>, and <span id="bold">Style</span>.<br><br>
+          By clicking the <span id="bold">Bar Color</span> well, the user will be prompted to select a new color for the visualizer's bars.<br><br>
+          By clicking the <span id="bold">Background Color</span> well, the user will be prompted to select a new color for the visualizers background.<br><br>
+          By clicking and dragging the <span id="bold">Bar Width</span> slider, the user can select the pixel width of the visualizer's bars.<br><br>
+          By clicking and dragging the <span id="bold">Smoothing</span> slider, the user can select how quickly the visualizer's bars react to the changes in the selected audio's amplitudes.<br><br>
+          By clicking and dragging the <span id="bold">Style</span> slider, the user can select from three different visual styles. These include "mirror", "bar", and "tunnel".
+      </p>
       </div>
     </div>
 

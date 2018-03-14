@@ -299,6 +299,34 @@ function closeWindow3() {
   document.getElementById('windowthemes').style.display = "none";
 }
 
+// Show / Hide Spans
+function toggleWindow1Span1() {
+  var span1 = document.getElementById('window1Span1');
+  if (span1.style.display == 'block')
+      span1.style.display = 'none';
+      else {
+        span1.style.display ='block';
+      }
+}
+
+function toggleWindow1Span2() {
+  var span2 = document.getElementById('window1Span2');
+  if (span2.style.display == 'block')
+      span2.style.display = 'none';
+      else {
+        span2.style.display ='block';
+      }
+}
+
+function toggleWindow1Span3() {
+  var span3 = document.getElementById('window1Span3');
+  if (span3.style.display == 'block')
+      span3.style.display = 'none';
+      else {
+        span3.style.display ='block';
+      }
+}
+
 // Get current time
 function currentTime() {
   var d = new Date();

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro');
 body {
   background: rgb(98, 124, 204);
-  /* background: linear-gradient(135deg, rgb(0, 170, 170), rgb(0, 110, 110)); *
+  /* background: linear-gradient(135deg, rgb(0, 170, 170), rgb(0, 110, 110)); */
   /* background-image: url(pattern.jpg); */
   font-family: 'Open Sans', sans-serif;
   margin: 0px;
@@ -180,10 +180,14 @@ label[for=settings] {
 #settingswindow {
   background-color: rgb(240, 240, 240);
   padding: 8px 10px 8px 10px;
-  width: 290px;
+  width: 284px;
   left: 60px;
   border-radius: 0 0 1px 1px;
   position: relative;
+  /* Border stuff */
+  border-color: rgb(220, 220, 220);
+  border-style: solid;
+  border-width: 0 3px 3px 3px;
   /* Shadow */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
               0 6px 20px 0 rgba(0, 0, 0, 0.2);
@@ -355,9 +359,10 @@ td:nth-child(2) {
 }
 
 #window1content {
-  width: 250px;
+  width: 399px;
+  max-height: 300px;
+  overflow-y: auto;
   visibility: hidden;
-  height: 110px;
   padding: 8px 10px 8px 10px;
   border-radius: 0 0 1px 1px;
   background-color: rgb(240, 240, 240);
@@ -366,6 +371,10 @@ td:nth-child(2) {
   left: 390px;
   position: absolute;
   font-size: .7em;
+  /* Border stuff */
+  border-color: rgb(220, 220, 220);
+  border-style: solid;
+  border-width: 0 3px 3px 3px;
   /* Shadow */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
               0 6px 20px 0 rgba(0, 0, 0, 0.2);
@@ -374,7 +383,7 @@ td:nth-child(2) {
 #window1header {
   background-color: rgb(220, 220, 220);
   height: 20px;
-  width: 250px;
+  width: 405px;
   padding: 0 10px 0 10px;
   font-size: .9em;
   font-family: 'Source Sans Pro', sans-serif;
@@ -387,6 +396,18 @@ td:nth-child(2) {
   /* Shadow */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
               0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+#window1Span1, #window1Span2, #window1Span3 {
+  display: none;
+}
+
+#window1 a:active {
+  color: red;
+}
+
+#window1 a:link, a:visited {
+  color: blue;
 }
 
 #window2 {
@@ -469,7 +490,6 @@ td:nth-child(2) {
 
 #window3header svg, #window2header svg, #window1header svg {
   font-size: .8em;
-  cursor: move;
 }
 
 /* Footer */
@@ -600,4 +620,8 @@ label[for=window98], label[for=window98settings], label[for=windowhelp], label[f
 
 #currentTime {
   float: right;
+}
+
+#bold {
+  font-weight: bold;
 }
