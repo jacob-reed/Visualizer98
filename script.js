@@ -33,7 +33,7 @@ file.onchange = function() {
 
   // Set up canvas
   var canvasCtx = canvas.getContext("2d");
-  canvas.width = 1000; // Set canvas resolution (higher = better)
+  canvas.width = 700; // Set canvas resolution (higher = better)
   canvas.height = 1000;
   var width = canvas.width;
   var height = canvas.height;
