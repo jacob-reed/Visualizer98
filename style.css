@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro');
 body {
-  background: rgb(98, 124, 204);
+  /* background: rgb(98, 124, 204); */
   /* background: linear-gradient(135deg, rgb(0, 170, 170), rgb(0, 110, 110)); */
-  /* background-image: url(pattern.jpg); */
+  background-image: url("Thatch.png");
   font-family: 'Open Sans', sans-serif;
   margin: 0px;
   width: 100%;
