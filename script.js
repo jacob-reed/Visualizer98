@@ -74,13 +74,7 @@ file.onchange = function() {
     }
     document.getElementById("styleOutput").innerHTML = styleName;
     // Get background color from user
-    var BGColor = document.getElementById("selectBGColor").value;
-    if (BGColor == "") {
-      canvasCtx.fillStyle = "#000000"; // Failsafe canvas background color
-    } else {
-      canvasCtx.fillStyle = BGColor; // Canvas background color
-    }
-    document.getElementById("bgcolorOutput").innerHTML = BGColor;
+    canvasCtx.fillStyle = "#000000";
 
     requestAnimationFrame(paintCanvas); // Update animation
     analyser.getByteFrequencyData(dataArray); // Read from audio
@@ -114,12 +108,7 @@ file.onchange = function() {
       }
       x += barWidth + 2;
       // Repeat for colored bars
-      if (barColor == "") {
-        canvasCtx.fillStyle = "#ffffff"; // Failsafe bar color
-      } else {
-        canvasCtx.fillStyle = barColor;
-      }
-      document.getElementById("barcolorOutput").innerHTML = barColor;
+      canvasCtx.fillStyle = "#ffffff";
       if (visualStyle == "1") { // "Mirror style"
         barHeight = dataArray[i] * 1.84;
         canvasCtx.fillRect(y, 500, barWidth, -1 * barHeight);
