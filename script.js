@@ -76,7 +76,7 @@ file.onchange = function() {
     // Get background color from user
     var BGColor = document.getElementById("selectBGColor").value;
     if (BGColor == "") {
-      canvasCtx.fillStyle = "#404040"; // Failsafe canvas background color
+      canvasCtx.fillStyle = "#000000"; // Failsafe canvas background color
     } else {
       canvasCtx.fillStyle = BGColor; // Canvas background color
     }
@@ -96,21 +96,9 @@ file.onchange = function() {
     var x = barWidth / 2;
     var y = 0;
 
-    // Set color value
-    if (barColor == "1") { // Red
-      barColor = "#fff";
-    } else if (barColor == "2") {
-      barColor = "#EB984E";
-    } else if (barColor == "3") {
-      barColor = "#f00";
-    } else if (barColor == "4") {
-      barColor = "#148F77";
-    } else if (barColor == "5") {
-      barColor = "#6C3483";
-    }
-
     // Draw bars (Shadows first)
     for (var i = 0; i < 510; i++) {
+      canvasCtx.fillStyle = "#000000";
       // Determine visualizer "style"
       if (visualStyle == "1") { // "Mirror style"
         barHeight = dataArray[i] * 1.84;
