@@ -33,7 +33,7 @@ file.onchange = function() {
 
   // Set up canvas
   var canvasCtx = canvas.getContext("2d");
-  canvas.width = 700; // Set canvas resolution (higher = better)
+  canvas.width = 1600; // Set canvas resolution (higher = better)
   canvas.height = 1000;
   var width = canvas.width;
   var height = canvas.height;
@@ -74,7 +74,13 @@ file.onchange = function() {
     }
     document.getElementById("styleOutput").innerHTML = styleName;
     // Get background color from user
-    canvasCtx.fillStyle = "#000000";
+    var BGColor = document.getElementById("selectBGColor").value;
+    if (BGColor == "") {
+      canvasCtx.fillStyle = "#404040"; // Failsafe canvas background color
+    } else {
+      canvasCtx.fillStyle = BGColor; // Canvas background color
+    }
+    document.getElementById("bgcolorOutput").innerHTML = BGColor;
 
     requestAnimationFrame(paintCanvas); // Update animation
     analyser.getByteFrequencyData(dataArray); // Read from audio
@@ -89,6 +95,19 @@ file.onchange = function() {
     var barHeight;
     var x = barWidth / 2;
     var y = 0;
+
+    // Set color value
+    if (barColor == "1") { // Red
+      barColor = "#fff";
+    } else if (barColor == "2") {
+      barColor = "#EB984E";
+    } else if (barColor == "3") {
+      barColor = "#f00";
+    } else if (barColor == "4") {
+      barColor = "#148F77";
+    } else if (barColor == "5") {
+      barColor = "#6C3483";
+    }
 
     // Draw bars (Shadows first)
     for (var i = 0; i < 510; i++) {
@@ -108,7 +127,12 @@ file.onchange = function() {
       }
       x += barWidth + 2;
       // Repeat for colored bars
-      canvasCtx.fillStyle = "#ffffff";
+      if (barColor == "") {
+        canvasCtx.fillStyle = "#ffffff"; // Failsafe bar color
+      } else {
+        canvasCtx.fillStyle = barColor;
+      }
+      document.getElementById("barcolorOutput").innerHTML = barColor;
       if (visualStyle == "1") { // "Mirror style"
         barHeight = dataArray[i] * 1.84;
         canvasCtx.fillRect(y, 500, barWidth, -1 * barHeight);
