@@ -11,11 +11,9 @@ function showFileName(event) {
 }
 
 // Load file and setup visualization
-function startFunction() {
-  var audio = document.getElementById("audio");
-  var audio;
-  audio.src = 'https://jacob-reed.github.io/Visualizer98/Sample.mp3';
-  audio.crossOrigin = "anonymous";
+file.onchange = function() {
+  var files = this.files; // Initialize audio file
+  audio.src = URL.createObjectURL(files[0]); // Specify location of audio
   // Load and begin playing audio
   audio.load();
   audio.play();
