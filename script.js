@@ -111,7 +111,6 @@ file.onchange = function() {
 
     // Draw bars (Shadows first)
     for (var i = 0; i < 510; i++) {
-      canvasCtx.fillStyle = "#000000";
       // Determine visualizer "style"
       if (visualStyle == "1") { // "Mirror style"
         barHeight = dataArray[i] * 1.84;
