@@ -22,7 +22,7 @@
     <audio id="audio" ontimeupdate="trackTime()"></audio><br>
     <div id="audioPlayer">
       <!-- Get and only accept audio files -->
-      <input type="file" id="file" accept="audio/*" class="inputfile" >
+      <input type="button" id="file" class="inputfile" onclick="startFunction()">
       <label for="file"><i class="fas fa-upload"></i> Choose a file...</label>
     	<button id="playButton" class="play" disabled>
         <div id="playIcon"><i class="fas fa-play"></i></div>
