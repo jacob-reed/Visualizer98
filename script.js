@@ -93,9 +93,9 @@ file.onchange = function() {
     } else {
       var barWidth = (width / bufferLength) * widthValue;
     }
-    var barHeight,
-      x = barWidth / 2,
-      y = 0;
+    var barHeight;
+    var x = barWidth / 2;
+    var y = 0;
 
     // Draw bars (Shadows first)
     for (var i = 0; i < 510; i++) {
@@ -545,4 +545,18 @@ function dragElement(elmnt) {
     document.onmouseup = null;
     document.onmousemove = null;
   }
+}
+
+// Change background
+function changebgWhite() {
+  document.body.style.backgroundImage = "url('whitebg.svg')";
+}
+function changebgBlack() {
+  document.body.style.backgroundImage = "url('blackbg.svg')";
+}
+function changebgPink() {
+  document.body.style.backgroundImage = "url('pinkbg.svg')";
+}
+function changebgBlue() {
+  document.body.style.backgroundImage = "url('bluebg.svg')";
 }

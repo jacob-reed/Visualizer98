@@ -2,7 +2,10 @@
 body {
   /* background: rgb(98, 124, 204); */
   /* background: linear-gradient(135deg, rgb(0, 170, 170), rgb(0, 110, 110)); */
-  background-image: url("Thatch.png");
+  background-image: url("bluebg.svg");
+  background-repeat: repeat;
+  background-size: 1000px 1000px;
+
   font-family: 'Open Sans', sans-serif;
   margin: 0px;
   width: 100%;
@@ -454,7 +457,7 @@ td:nth-child(2) {
 }
 
 #window3content {
-  width: 250px;
+  width: 325px;
   visibility: hidden;
   height: 110px;
   padding: 8px 10px 8px 10px;
@@ -473,7 +476,7 @@ td:nth-child(2) {
 #window3header {
   background-color: rgb(220, 220, 220);
   height: 20px;
-  width: 250px;
+  width: 325px;
   padding: 0 10px 0 10px;
   font-size: .9em;
   font-family: 'Source Sans Pro', sans-serif;
@@ -624,4 +627,64 @@ label[for=window98], label[for=window98settings], label[for=windowhelp], label[f
 
 #bold {
   font-weight: bold;
+}
+
+/* Wallpaper Buttons */
+#whitebg {
+  background: url("whitebg.svg");
+  background-repeat: no-repeat;
+  background-size: 200px;
+  background-position: center center;
+  margin-right: 5px;
+  width: 75px;
+  height: 75px;
+  transition: .5s ease;
+}
+
+#whitebg:hover {
+  opacity: 0.7;
+}
+
+#blackbg {
+  background: url("blackbg.svg");
+  background-repeat: no-repeat;
+  background-size: 200px;
+  background-position: left bottom;
+  margin-right: 5px;
+  width: 75px;
+  height: 75px;
+  transition: .5s ease;
+}
+
+#blackbg:hover {
+  opacity: 0.7;
+}
+
+#pinkbg {
+  background: url("pinkbg.svg");
+  background-repeat: no-repeat;
+  background-size: 150px;
+  background-position: right top;
+  margin-right: 5px;
+  width: 75px;
+  height: 75px;
+  transition: .5s ease;
+}
+
+#pinkbg:hover {
+  opacity: 0.7;
+}
+
+#bluebg {
+  background: url("bluebg.svg");
+  background-repeat: no-repeat;
+  background-size: 150px;
+  background-position: left bottom;
+  width: 75px;
+  height: 75px;
+  transition: .5s ease;
+}
+
+#bluebg:hover {
+  opacity: 0.7;
 }
