@@ -81,6 +81,7 @@ file.onchange = function() {
       canvasCtx.fillStyle = BGColor; // Canvas background color
     }
     document.getElementById("bgcolorOutput").innerHTML = BGColor;
+    document.getElementById("barcolorOutput").innerHTML = barColor;
 
     requestAnimationFrame(paintCanvas); // Update animation
     analyser.getByteFrequencyData(dataArray); // Read from audio
@@ -92,9 +93,9 @@ file.onchange = function() {
     } else {
       var barWidth = (width / bufferLength) * widthValue;
     }
-    var barHeight;
-    var x = barWidth / 2;
-    var y = 0;
+    var barHeight,
+      x = barWidth / 2,
+      y = 0;
 
     // Draw bars (Shadows first)
     for (var i = 0; i < 510; i++) {
@@ -119,7 +120,6 @@ file.onchange = function() {
       } else {
         canvasCtx.fillStyle = barColor;
       }
-      document.getElementById("barcolorOutput").innerHTML = barColor;
       if (visualStyle == "1") { // "Mirror style"
         barHeight = dataArray[i] * 1.84;
         canvasCtx.fillRect(y, 500, barWidth, -1 * barHeight);
