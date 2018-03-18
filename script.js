@@ -560,3 +560,12 @@ function changebgPink() {
 function changebgBlue() {
   document.body.style.backgroundImage = "url('bluebg.svg')";
 }
+
+/* Maybe?
+// Make fullscreen?!
+function fullscreen(){
+  var w = window.innerWidth;
+  var h = window.innerHeight;
+  document.getElementById("canvas").style.width = "";
+}
+*/

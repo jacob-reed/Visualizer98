@@ -16,7 +16,7 @@
 	<polygon class="st1" points="202.5,31.2 125,84.7 211,125 	"/>
 	<polygon points="10.4,20.2 37.2,60.6 58.9,17.3 	"/>
 	<circle class="st2" cx="213" cy="181" r="35"/>
-	<polygon class="st2" points="174,168 174,168 174,168 	"/>
+	<path class="st2" d="M174,168L174,168L174,168z"/>
 </g>
 <g id="Layer_5">
 	<polygon class="st0" points="233.5,214.8 169.2,172.6 170.6,170.5 234.8,212.7 	"/>
@@ -72,21 +72,21 @@
 </g>
 <g id="Layer_3">
 	
-		<rect x="192.4" y="62.9" transform="matrix(0.7181 -0.696 0.696 0.7181 12.5407 167.7937)" class="st2" width="41.9" height="11.1"/>
-	<rect x="84.8" y="16.9" transform="matrix(0.9085 -0.4178 0.4178 0.9085 -7.599 40.9787)" class="st2" width="10" height="41.9"/>
+		<rect x="192.4" y="62.9" transform="matrix(0.7181 -0.696 0.696 0.7181 12.5172 167.812)" class="st2" width="41.9" height="11.1"/>
+	<rect x="84.8" y="16.9" transform="matrix(0.9085 -0.4178 0.4178 0.9085 -7.5994 40.9807)" class="st2" width="10" height="41.9"/>
 	
-		<rect x="63.8" y="73.9" transform="matrix(0.5549 -0.8319 0.8319 0.5549 -48.2838 99.4428)" class="st2" width="10" height="41.9"/>
+		<rect x="63.8" y="73.9" transform="matrix(0.5549 -0.8319 0.8319 0.5549 -48.2769 99.4474)" class="st2" width="10" height="41.9"/>
 	
-		<rect x="127.8" y="107.9" transform="matrix(0.9438 -0.3304 0.3304 0.9438 -35.1152 51.1121)" class="st2" width="10" height="41.9"/>
+		<rect x="127.8" y="107.9" transform="matrix(0.9438 -0.3304 0.3304 0.9438 -35.1134 51.113)" class="st2" width="10" height="41.9"/>
 	
-		<rect x="131.8" y="161.9" transform="matrix(3.597691e-02 -0.9994 0.9994 3.597691e-02 -50.8492 312.9758)" class="st2" width="10" height="41.9"/>
+		<rect x="131.8" y="161.9" transform="matrix(3.597521e-02 -0.9994 0.9994 3.597521e-02 -50.827 312.9828)" class="st2" width="10" height="41.9"/>
 	
-		<rect x="-7.2" y="112.9" transform="matrix(0.4067 -0.9136 0.9136 0.4067 -99.482 82.5325)" class="st2" width="41.9" height="10"/>
-	<rect x="7.8" y="225.9" transform="matrix(0.805 -0.5932 0.5932 0.805 -131.3426 62.083)" class="st2" width="41.9" height="10"/>
+		<rect x="-7.1" y="112.9" transform="matrix(0.4067 -0.9136 0.9136 0.4067 -99.5266 82.5926)" class="st2" width="41.9" height="10"/>
+	<rect x="7.8" y="225.9" transform="matrix(0.805 -0.5932 0.5932 0.805 -131.3684 62.0856)" class="st2" width="41.9" height="10"/>
 	
-		<rect x="137.8" y="229.8" transform="matrix(0.9228 -0.3854 0.3854 0.9228 -78.2379 79.3358)" class="st2" width="41.9" height="10"/>
+		<rect x="137.8" y="229.8" transform="matrix(0.9228 -0.3854 0.3854 0.9228 -78.2359 79.3176)" class="st2" width="41.9" height="10"/>
 	
-		<rect x="145.1" y="17.8" transform="matrix(0.5264 -0.8502 0.8502 0.5264 59.0213 152.077)" class="st2" width="41.9" height="10.6"/>
+		<rect x="145.1" y="17.8" transform="matrix(0.5264 -0.8502 0.8502 0.5264 59.0406 152.1182)" class="st2" width="41.9" height="10.6"/>
 </g>
 <g id="Layer_2_1_">
 	<polygon class="st3" points="102.9,123.1 91.6,138.2 110.5,140.4 	"/>
@@ -95,21 +95,21 @@
 	<circle class="st3" cx="27.5" cy="151.5" r="4.5"/>
 	<circle cx="193.5" cy="134.5" r="4.5"/>
 	
-		<rect x="192.4" y="59.9" transform="matrix(0.7181 -0.696 0.696 0.7181 14.6286 166.9479)" class="st3" width="41.9" height="11.1"/>
-	<rect x="87.8" y="17.9" transform="matrix(0.9085 -0.4178 0.4178 0.9085 -7.7424 42.3235)" class="st3" width="10" height="41.9"/>
+		<rect x="192.4" y="59.9" transform="matrix(0.7181 -0.696 0.696 0.7181 14.6052 166.9661)" class="st3" width="41.9" height="11.1"/>
+	<rect x="87.8" y="17.9" transform="matrix(0.9085 -0.4178 0.4178 0.9085 -7.7428 42.3256)" class="st3" width="10" height="41.9"/>
 	
-		<rect x="60.8" y="73.9" transform="matrix(0.5549 -0.8319 0.8319 0.5549 -49.6191 96.9472)" class="st3" width="10" height="41.9"/>
+		<rect x="60.8" y="73.9" transform="matrix(0.5549 -0.8319 0.8319 0.5549 -49.6122 96.9517)" class="st3" width="10" height="41.9"/>
 	
-		<rect x="124.8" y="105.9" transform="matrix(0.9438 -0.3304 0.3304 0.9438 -34.6229 50.0086)" class="st3" width="10" height="41.9"/>
+		<rect x="124.8" y="105.9" transform="matrix(0.9438 -0.3304 0.3304 0.9438 -34.6211 50.0094)" class="st3" width="10" height="41.9"/>
 	
-		<rect x="133.8" y="159.9" transform="matrix(3.597691e-02 -0.9994 0.9994 3.597691e-02 -46.9225 313.0463)" class="st3" width="10" height="41.9"/>
+		<rect x="133.8" y="159.9" transform="matrix(3.597521e-02 -0.9994 0.9994 3.597521e-02 -46.9002 313.0531)" class="st3" width="10" height="41.9"/>
 	
-		<rect x="-5.2" y="111.9" transform="matrix(0.4067 -0.9136 0.9136 0.4067 -97.3819 83.7665)" class="st3" width="41.9" height="10"/>
+		<rect x="-5.1" y="111.9" transform="matrix(0.4067 -0.9136 0.9136 0.4067 -97.4266 83.8264)" class="st3" width="41.9" height="10"/>
 	
-		<rect x="10.8" y="225.9" transform="matrix(0.805 -0.5932 0.5932 0.805 -130.7578 63.8628)" class="st3" width="41.9" height="10"/>
+		<rect x="10.8" y="225.9" transform="matrix(0.805 -0.5932 0.5932 0.805 -130.7837 63.8652)" class="st3" width="41.9" height="10"/>
 	
-		<rect x="136.8" y="231.8" transform="matrix(0.9228 -0.3854 0.3854 0.9228 -79.0859 79.105)" class="st3" width="41.9" height="10"/>
+		<rect x="136.8" y="231.8" transform="matrix(0.9228 -0.3854 0.3854 0.9228 -79.084 79.0867)" class="st3" width="41.9" height="10"/>
 	
-		<rect x="148.1" y="17.8" transform="matrix(0.5264 -0.8502 0.8502 0.5264 60.442 154.6278)" class="st3" width="41.9" height="10.6"/>
+		<rect x="148.1" y="17.8" transform="matrix(0.5264 -0.8502 0.8502 0.5264 60.4612 154.6689)" class="st3" width="41.9" height="10.6"/>
 </g>
 </svg>

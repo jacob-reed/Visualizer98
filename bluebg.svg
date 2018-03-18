@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 250 250" style="enable-background:new 0 0 250 250;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#94D0FF;}
@@ -13,7 +13,7 @@
 	.st7{fill:#B281FF;}
 	.st8{fill:#FFFFFF;}
 </style>
-<g id="Layer_1">
+<g id="Layer_1_1_">
 	<rect class="st0" width="250" height="250"/>
 </g>
 <g id="Layer_4">
@@ -21,7 +21,7 @@
 	<polygon class="st2" points="202.5,31.2 125,84.7 211,125 	"/>
 	<polygon class="st3" points="10.4,20.2 37.2,60.6 58.9,17.3 	"/>
 	<circle class="st4" cx="213" cy="181" r="35"/>
-	<polygon class="st5" points="174,168 174,168 174,168 174,168 	"/>
+	<polygon class="st5" points="174,168 174,168 174,168 	"/>
 </g>
 <g id="Layer_5">
 	<polygon class="st0" points="233.5,214.8 169.2,172.6 170.6,170.5 234.8,212.7 	"/>
@@ -72,49 +72,50 @@
 	<polygon class="st0" points="211,104.1 131.5,67.4 132.5,65.1 212,101.9 	"/>
 	<polygon class="st0" points="213.5,99.5 142.7,67.3 143.7,65 214.5,97.2 	"/>
 	<polygon class="st0" points="212.9,126.9 121.7,84.6 122.7,82.3 213.9,124.7 	"/>
-	<polygon class="st0" points="85.7,214.2 32.2,160.6 33.9,158.8 87.5,212.4 	"/>
-	<polygon class="st0" points="88.7,210.3 36.2,157.3 37.9,155.6 90.4,208.5 	"/>
-	<polygon class="st0" points="92.7,207 39.7,154 41.4,152.2 94.4,205.3 	"/>
+	<polygon class="st0" points="86.7,214.2 33.2,160.6 34.9,158.8 88.5,212.4 	"/>
+	<polygon class="st0" points="89.7,210.3 37.2,157.3 38.9,155.6 91.4,208.5 	"/>
+	<polygon class="st0" points="93.7,207 40.7,154 42.4,152.2 95.4,205.3 	"/>
 </g>
 <g id="Layer_3">
 	
-		<rect x="207.8" y="47.5" transform="matrix(0.696 0.7181 -0.7181 0.696 114.04 -132.4299)" class="st6" width="11.1" height="41.9"/>
-	<rect x="84.8" y="16.9" transform="matrix(0.9085 -0.4178 0.4178 0.9085 -7.6035 40.9768)" class="st6" width="10" height="41.9"/>
+		<rect x="192.4" y="62.9" transform="matrix(0.7181 -0.696 0.696 0.7181 12.5407 167.7937)" class="st6" width="41.9" height="11.1"/>
+	<rect x="84.8" y="16.9" transform="matrix(0.9085 -0.4178 0.4178 0.9085 -7.599 40.9787)" class="st6" width="10" height="41.9"/>
 	
-		<rect x="63.8" y="73.9" transform="matrix(0.5549 -0.8319 0.8319 0.5549 -48.2916 99.4469)" class="st6" width="10" height="41.9"/>
+		<rect x="63.8" y="73.9" transform="matrix(0.5549 -0.8319 0.8319 0.5549 -48.2838 99.4428)" class="st6" width="10" height="41.9"/>
 	
-		<rect x="127.8" y="107.9" transform="matrix(0.9438 -0.3304 0.3304 0.9438 -35.1187 51.117)" class="st6" width="10" height="41.9"/>
+		<rect x="127.8" y="107.9" transform="matrix(0.9438 -0.3304 0.3304 0.9438 -35.1152 51.1121)" class="st6" width="10" height="41.9"/>
 	
-		<rect x="131.8" y="161.9" transform="matrix(3.597861e-02 -0.9994 0.9994 3.597861e-02 -50.8639 312.9835)" class="st6" width="10" height="41.9"/>
-	<rect x="8.8" y="96.9" transform="matrix(0.9136 0.4067 -0.4067 0.9136 49.1215 4.5758)" class="st6" width="10" height="41.9"/>
+		<rect x="131.8" y="161.9" transform="matrix(3.597691e-02 -0.9994 0.9994 3.597691e-02 -50.8492 312.9758)" class="st6" width="10" height="41.9"/>
 	
-		<rect x="23.8" y="209.9" transform="matrix(-0.5932 -0.805 0.805 -0.5932 -139.97 390.9867)" class="st6" width="10" height="41.9"/>
+		<rect x="-7.2" y="112.9" transform="matrix(0.4067 -0.9136 0.9136 0.4067 -99.482 82.5325)" class="st6" width="41.9" height="10"/>
+	<rect x="7.8" y="225.9" transform="matrix(0.805 -0.5932 0.5932 0.805 -131.3426 62.083)" class="st6" width="41.9" height="10"/>
 	
-		<rect x="153.8" y="213.9" transform="matrix(-0.3854 -0.9228 0.9228 -0.3854 3.275 471.893)" class="st6" width="10" height="41.9"/>
+		<rect x="137.8" y="229.8" transform="matrix(0.9228 -0.3854 0.3854 0.9228 -78.2379 79.3358)" class="st6" width="41.9" height="10"/>
 	
-		<rect x="160.7" y="2" transform="matrix(-0.8502 -0.5264 0.5264 -0.8502 295.0753 129.9524)" class="st6" width="10.6" height="41.9"/>
+		<rect x="145.1" y="17.8" transform="matrix(0.5264 -0.8502 0.8502 0.5264 59.0213 152.077)" class="st6" width="41.9" height="10.6"/>
 </g>
-<g id="Layer_2">
+<g id="Layer_2_1_">
 	<polygon class="st7" points="102.9,123.1 91.6,138.2 110.5,140.4 	"/>
 	<polygon class="st7" points="95.8,222.4 80.3,235.4 99.9,242.1 	"/>
 	<polygon class="st7" points="227.4,227.8 208.9,219.8 211.6,240.3 	"/>
-	<circle class="st8" cx="27.5" cy="151.5" r="4.5"/>
+	<circle class="st3" cx="27.5" cy="151.5" r="4.5"/>
 	<circle class="st8" cx="193.5" cy="134.5" r="4.5"/>
 	
-		<rect x="207.8" y="44.5" transform="matrix(0.696 0.7181 -0.7181 0.696 111.8857 -133.342)" class="st7" width="11.1" height="41.9"/>
-	<rect x="87.8" y="17.9" transform="matrix(0.9085 -0.4178 0.4178 0.9085 -7.7469 42.3216)" class="st7" width="10" height="41.9"/>
+		<rect x="192.4" y="59.9" transform="matrix(0.7181 -0.696 0.696 0.7181 14.6286 166.9479)" class="st7" width="41.9" height="11.1"/>
+	<rect x="87.8" y="17.9" transform="matrix(0.9085 -0.4178 0.4178 0.9085 -7.7424 42.3235)" class="st7" width="10" height="41.9"/>
 	
-		<rect x="60.8" y="73.9" transform="matrix(0.5549 -0.8319 0.8319 0.5549 -49.6268 96.9513)" class="st7" width="10" height="41.9"/>
+		<rect x="60.8" y="73.9" transform="matrix(0.5549 -0.8319 0.8319 0.5549 -49.6191 96.9472)" class="st7" width="10" height="41.9"/>
 	
-		<rect x="124.8" y="105.9" transform="matrix(0.9438 -0.3304 0.3304 0.9438 -34.6263 50.0134)" class="st7" width="10" height="41.9"/>
+		<rect x="124.8" y="105.9" transform="matrix(0.9438 -0.3304 0.3304 0.9438 -34.6229 50.0086)" class="st7" width="10" height="41.9"/>
 	
-		<rect x="133.8" y="159.9" transform="matrix(3.597861e-02 -0.9994 0.9994 3.597861e-02 -46.9372 313.0542)" class="st7" width="10" height="41.9"/>
-	<rect x="10.8" y="95.9" transform="matrix(0.9136 0.4067 -0.4067 0.9136 48.8877 3.6761)" class="st7" width="10" height="41.9"/>
+		<rect x="133.8" y="159.9" transform="matrix(3.597691e-02 -0.9994 0.9994 3.597691e-02 -46.9225 313.0463)" class="st7" width="10" height="41.9"/>
 	
-		<rect x="26.8" y="209.9" transform="matrix(-0.5932 -0.805 0.805 -0.5932 -135.1903 393.4018)" class="st7" width="10" height="41.9"/>
+		<rect x="-5.2" y="111.9" transform="matrix(0.4067 -0.9136 0.9136 0.4067 -97.3819 83.7665)" class="st7" width="41.9" height="10"/>
 	
-		<rect x="152.8" y="215.9" transform="matrix(-0.3854 -0.9228 0.9228 -0.3854 4.415070e-02 473.741)" class="st7" width="10" height="41.9"/>
+		<rect x="10.8" y="225.9" transform="matrix(0.805 -0.5932 0.5932 0.805 -130.7578 63.8628)" class="st7" width="41.9" height="10"/>
 	
-		<rect x="163.7" y="2" transform="matrix(-0.8502 -0.5264 0.5264 -0.8502 300.626 131.5317)" class="st7" width="10.6" height="41.9"/>
+		<rect x="136.8" y="231.8" transform="matrix(0.9228 -0.3854 0.3854 0.9228 -79.0859 79.105)" class="st7" width="41.9" height="10"/>
+	
+		<rect x="148.1" y="17.8" transform="matrix(0.5264 -0.8502 0.8502 0.5264 60.442 154.6278)" class="st7" width="41.9" height="10.6"/>
 </g>
 </svg>
