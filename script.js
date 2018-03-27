@@ -614,4 +614,5 @@ function window3Front() {
 var viewport = window.innerWidth;
 if (viewport < 600) {
   document.getElementById("warning").style.visibility = "visible";
+  document.getElementById("warningbg").style.visibility = "visible";
 }

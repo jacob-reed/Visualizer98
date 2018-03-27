@@ -732,6 +732,7 @@ label[for=window98], label[for=window98settings], label[for=windowhelp], label[f
   z-index: 9;
   background-color: black;
   opacity: 0.75;
+  visibility: hidden;
 }
 
 #closebtn {
