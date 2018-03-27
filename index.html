@@ -154,10 +154,21 @@
       </div>
       <div id="window2content">
         <p>
-          Visualizer 98 was created in order to showcase my understanding of HTML, CSS, and JavaScript.
+          Visualizer 98 was created in order to showcase my understanding of HTML, CSS, JavaScript, and good web design philosophy.
         </p>
         <p>
-          I'm gonna fill out more here later, lol.
+          The concept itself is based off my experiences has a youth playing music with Windows Media Players and watching the music "come to life" with the built-in visualizations.
+          I wanted to create a nostalgic environment in which I could do the same in 2018, but also share that experience with others.
+        </p>
+        <p>
+          Visualizer 98 utilizes the
+          <a href="https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html">Web Audio API</a>
+          in order to process audio files and draw the visualizer on a simple HTML canvas element.
+          Icons and wallpapers were created using Adobe Illustrator and converted to SVG for quick loading.
+          A number of JavaScript (draggable windows, for example) and CSS tweaks give the environment the look and feel of a desktop experience from yesteryear.
+          Big thanks to <a href="https://fontawesome.com/">FontAwesome</a> for making the free-to-use vector icons.
+        </br></br>
+          I hope you enjoy your time using Visualizer 98! <a href="contact.html">Contact me</a> with any questions or comments.
         </p>
       </div>
     </div>
@@ -180,11 +191,6 @@
     </div>
   </div>
 
-  <!-- Test Output Section -->
-  <p id="test">
-  </p>
-  </div>
-
   <!-- Load Visualizer Script -->
   <script type="text/javascript" src="script.js"></script>
 
@@ -196,38 +202,41 @@
       </label>
     </div>
     <div id="footerWindows">
-      <div id="window98">
+      <div id="window98" onclick="visualizerFront()">
         <i class="fas fa-music"></i>
         <label for="window98">
         Visualizer 98
         </label>
       </div>
-      <div id="window98settings">
+      <div id="window98settings" onclick="settingsFront()">
         <i class="fas fa-sliders-h"></i>
         <label for="window98settings">
         Visualizer Settings
         </label>
       </div>
-      <div id="windowhelp">
+      <div id="windowhelp" onclick="window1Front()">
         <i class="fas fa-question-circle"></i>
         <label for="windowhelp">
         Help
         </label>
       </div>
-      <div id="windowabout">
+      <div id="windowabout" onclick="window2Front()">
         <i class="fas fa-info-circle"></i>
         <label for="windowabout">
         About
         </label>
       </div>
-      <div id="windowthemes">
+      <div id="windowthemes" onclick="window3Front()">
         <i class="fas fa-adjust"></i>
         <label for="windowthemes">
         Themes
         </label>
       </div>
       <div id="showTime">
-        <span id="currentTime"></p>
+        <span id="contactMe">
+          <a href="contact.html"><i class="fas fa-user-circle"></i></a>
+        </span>
+        <span id="currentTime"></span>
       </div>
     </div>
   </div>

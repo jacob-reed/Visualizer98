@@ -28,6 +28,7 @@ body {
   font-size: .9em;
   font-family: 'Source Sans Pro', sans-serif;
   cursor: move;
+  position: relative;
 }
 
 #visualizerheader svg {
@@ -418,9 +419,10 @@ td:nth-child(2) {
 }
 
 #window2content {
-  width: 250px;
+  width: 350px;
   visibility: hidden;
-  height: 110px;
+  max-height: 225px;
+  overflow-y: auto;
   padding: 8px 10px 8px 10px;
   border-radius: 0 0 1px 1px;
   background-color: rgb(240, 240, 240);
@@ -429,6 +431,10 @@ td:nth-child(2) {
   font-size: .7em;
   top: 510px;
   left: 430px;
+  /* Border stuff */
+  border-color: rgb(220, 220, 220);
+  border-style: solid;
+  border-width: 0 3px 3px 3px;
   /* Shadow */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
               0 6px 20px 0 rgba(0, 0, 0, 0.2);
@@ -437,13 +443,13 @@ td:nth-child(2) {
 #window2header {
   background-color: rgb(220, 220, 220);
   height: 20px;
-  width: 250px;
+  width: 356px;
   padding: 0 10px 0 10px;
   font-size: .9em;
   font-family: 'Source Sans Pro', sans-serif;
   border-radius: 1px 1px 0 0;
   visibility: hidden;
-  position: absolute;
+  position: relative;
   top: 474px;
   left: 430px;
   cursor: move;
@@ -457,9 +463,9 @@ td:nth-child(2) {
 }
 
 #window3content {
-  width: 325px;
+  width: 324px;
   visibility: hidden;
-  height: 110px;
+  height: 75px;
   padding: 8px 10px 8px 10px;
   border-radius: 0 0 1px 1px;
   background-color: rgb(240, 240, 240);
@@ -468,6 +474,10 @@ td:nth-child(2) {
   font-size: .7em;
   top: 550px;
   left: 470px;
+  /* Border stuff */
+  border-color: rgb(220, 220, 220);
+  border-style: solid;
+  border-width: 0 3px 3px 3px;
   /* Shadow */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
               0 6px 20px 0 rgba(0, 0, 0, 0.2);
@@ -476,7 +486,7 @@ td:nth-child(2) {
 #window3header {
   background-color: rgb(220, 220, 220);
   height: 20px;
-  width: 325px;
+  width: 330px;
   padding: 0 10px 0 10px;
   font-size: .9em;
   font-family: 'Source Sans Pro', sans-serif;
@@ -499,6 +509,7 @@ td:nth-child(2) {
 
 #footer {
   position: fixed;
+  z-index: 3;
   top: 0;
   height: 30px;
   width: 100%;
@@ -588,6 +599,18 @@ td:nth-child(2) {
 }
 #windowthemes:hover {
   background-color: rgb(170, 170, 170);
+}
+
+.fa-user-circle{
+  padding-top: 2px;
+  margin-left: 5px;
+  font-size: 15px;
+  transition: color 0.5s ease;
+  color: rgb(0, 0, 0);
+}
+
+.fa-user-circle:hover {
+  color: rgb(196, 43, 144);
 }
 
 #showTime {

@@ -261,6 +261,7 @@ function showWindow1() {
   document.getElementById('window1header').style.visibility = "visible";
   document.getElementById('window1content').style.visibility = "visible";
   document.getElementById('windowhelp').style.display = "inline-block";
+  window1Front();
 }
 
 function showWindow2() {
@@ -268,6 +269,7 @@ function showWindow2() {
   document.getElementById('window2header').style.visibility = "visible";
   document.getElementById('window2content').style.visibility = "visible";
   document.getElementById('windowabout').style.display = "inline-block";
+  window2Front();
 }
 
 function showWindow3() {
@@ -275,6 +277,7 @@ function showWindow3() {
   document.getElementById('window3header').style.visibility = "visible";
   document.getElementById('window3content').style.visibility = "visible";
   document.getElementById('windowthemes').style.display = "inline-block";
+  window3Front();
 }
 
 // close buttons
@@ -561,11 +564,48 @@ function changebgBlue() {
   document.body.style.backgroundImage = "url('bluebg.svg')";
 }
 
-/* Maybe?
-// Make fullscreen?!
-function fullscreen(){
-  var w = window.innerWidth;
-  var h = window.innerHeight;
-  document.getElementById("canvas").style.width = "";
+// Z-Index
+document.getElementById("visualizer").addEventListener("mousedown", visualizerFront);
+function visualizerFront() {
+  visualizer.style.zIndex = "2";
+  settings.style.zIndex = "1";
+  window1.style.zIndex ="1";
+  window2.style.zIndex ="1";
+  window3.style.zIndex ="1";
 }
-*/
+
+document.getElementById("settingsheader").addEventListener("mousedown", settingsFront);
+function settingsFront() {
+  settings.style.zIndex = "2";
+  visualizer.style.zIndex = "1";
+  window1.style.zIndex ="1";
+  window2.style.zIndex ="1";
+  window3.style.zIndex ="1";
+}
+
+document.getElementById("window1header").addEventListener("mousedown", window1Front);
+function window1Front() {
+  settings.style.zIndex = "1";
+  visualizer.style.zIndex = "1";
+  window1.style.zIndex ="2";
+  window2.style.zIndex ="1";
+  window3.style.zIndex ="1";
+}
+
+document.getElementById("window2header").addEventListener("mousedown", window2Front);
+function window2Front() {
+  settings.style.zIndex = "1";
+  visualizer.style.zIndex = "1";
+  window1.style.zIndex ="1";
+  window2.style.zIndex ="2";
+  window3.style.zIndex ="1";
+}
+
+document.getElementById("window3header").addEventListener("mousedown", window3Front);
+function window3Front() {
+  settings.style.zIndex = "1";
+  visualizer.style.zIndex = "1";
+  window1.style.zIndex ="1";
+  window2.style.zIndex ="1";
+  window3.style.zIndex ="2";
+}

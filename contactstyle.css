@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto');
+
+body {
+  background-color: #EAECEE;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+}
+
+.img-thumbnail {
+  height: 200px;
+  margin-bottom: 25px;
+  box-shadow: 3px 3px 10px grey;
+}
+
+.fa-envelope-square,
+.fa-github-square,
+.fa-twitter-square,
+.fa-linkedin {
+  color: black;
+  margin-left: 5px;
+  margin-right: 5px;
+  transition: color 0.5s ease;
+}
+
+.fa-envelope-square:hover,
+.fa-github-square:hover,
+.fa-twitter-square:hover,
+.fa-linkedin:hover {
+  color: #52A3CF;
+}
+
+
+#about {
+  margin-top: 75px;
+}
+
+a {
+  color: #138D75;
+}
+
+a:hover {
+  color: #F684D9;
+}
