@@ -567,45 +567,45 @@ function changebgBlue() {
 // Z-Index
 document.getElementById("visualizer").addEventListener("mousedown", visualizerFront);
 function visualizerFront() {
-  visualizer.style.zIndex = "2";
-  settings.style.zIndex = "1";
-  window1.style.zIndex ="1";
-  window2.style.zIndex ="1";
-  window3.style.zIndex ="1";
+  visualizer.style.zIndex = "3";
+  settings.style.zIndex = "2";
+  window1.style.zIndex = "1";
+  window2.style.zIndex = "1";
+  window3.style.zIndex = "1";
 }
 
-document.getElementById("settingsheader").addEventListener("mousedown", settingsFront);
+document.getElementById("settings").addEventListener("mousedown", settingsFront);
 function settingsFront() {
   settings.style.zIndex = "2";
   visualizer.style.zIndex = "1";
-  window1.style.zIndex ="1";
-  window2.style.zIndex ="1";
-  window3.style.zIndex ="1";
+  window1.style.zIndex = "1";
+  window2.style.zIndex = "1";
+  window3.style.zIndex = "1";
 }
 
-document.getElementById("window1header").addEventListener("mousedown", window1Front);
+document.getElementById("window1").addEventListener("mousedown", window1Front);
 function window1Front() {
   settings.style.zIndex = "1";
   visualizer.style.zIndex = "1";
-  window1.style.zIndex ="2";
-  window2.style.zIndex ="1";
-  window3.style.zIndex ="1";
+  window1.style.zIndex = "2";
+  window2.style.zIndex = "1";
+  window3.style.zIndex = "1";
 }
 
-document.getElementById("window2header").addEventListener("mousedown", window2Front);
+document.getElementById("window2").addEventListener("mousedown", window2Front);
 function window2Front() {
   settings.style.zIndex = "1";
   visualizer.style.zIndex = "1";
-  window1.style.zIndex ="1";
-  window2.style.zIndex ="2";
-  window3.style.zIndex ="1";
+  window1.style.zIndex = "1";
+  window2.style.zIndex = "2";
+  window3.style.zIndex = "1";
 }
 
-document.getElementById("window3header").addEventListener("mousedown", window3Front);
+document.getElementById("window3").addEventListener("mousedown", window3Front);
 function window3Front() {
   settings.style.zIndex = "1";
   visualizer.style.zIndex = "1";
-  window1.style.zIndex ="1";
-  window2.style.zIndex ="1";
-  window3.style.zIndex ="2";
+  window1.style.zIndex = "1";
+  window2.style.zIndex = "1";
+  window3.style.zIndex = "2";
 }

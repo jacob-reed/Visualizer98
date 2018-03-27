@@ -711,3 +711,40 @@ label[for=window98], label[for=window98settings], label[for=windowhelp], label[f
 #bluebg:hover {
   opacity: 0.7;
 }
+
+/* Warning banner */
+.warning {
+  padding: 20px;
+    background-color: #f44336;
+    color: white;
+    display: none;
+    z-index: 10;
+    position: relative;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    display: none;
+    z-index: 10;
+    position: relative;
+}
+
+.closebtn:hover {
+    color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  .warning {
+    display: block;
+  }
+  .closebtn {
+    display: block;
+  }
+}
