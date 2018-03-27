@@ -740,7 +740,7 @@ label[for=window98], label[for=window98settings], label[for=windowhelp], label[f
     color: black;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 320px) and (max-width: 812px) {
   .warning {
     display: block;
   }
