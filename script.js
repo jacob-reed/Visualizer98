@@ -615,3 +615,5 @@ var viewport = window.innerWidth;
 if (viewport < 600) {
   document.getElementById("warning").style.visibility = "visible";
 }
+
+window.alert(viewport);
