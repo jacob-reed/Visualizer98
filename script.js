@@ -609,3 +609,9 @@ function window3Front() {
   window2.style.zIndex = "1";
   window3.style.zIndex = "2";
 }
+
+// Viewport nonsense
+var viewport = window.innerWidth;
+if (viewport < 600) {
+  document.getElementById("warning").style.visibility = "visible";
+}

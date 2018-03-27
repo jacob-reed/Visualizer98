@@ -9,6 +9,13 @@
 <body onload="currentTime()">
 
   <div id="main">
+
+    <!-- Warning -->
+    <div id="warning">
+      <span id="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+      <strong>Sorry!</strong> Visualizer 98 currently does not support mobile devices.
+    </div>
+
     <!-- Visualizer Section -->
     <div id="visualizer">
       <div id="visualizerheader">
@@ -184,21 +191,12 @@
         <input type="button" id="blackbg" onclick="changebgBlack()">
         <input type="button" id="pinkbg" onclick="changebgPink()">
         <input type="button" id="bluebg" onclick="changebgBlue()">
-        <!-- Maybe later
-        r<input type="button" id="fullscreen" onclick="fullscreen()">
-        -->
       </div>
     </div>
   </div>
 
   <!-- Load Visualizer Script -->
   <script type="text/javascript" src="script.js"></script>
-
-  <!-- Warning -->
-  <div class="warning">
-    <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-    <strong>Warning!</strong> Visualizer 98 currently does not support mobile devices.
-  </div>
 
   <!-- Draw "footer" -->
   <div id="footer">

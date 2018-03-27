@@ -713,38 +713,29 @@ label[for=window98], label[for=window98settings], label[for=windowhelp], label[f
 }
 
 /* Warning banner */
-.warning {
-  padding: 20px;
-    background-color: #f44336;
+#warning {
+  padding: 30px;
+  background-color: #f44336;
+  color: white;
+  visibility: hidden;
+  z-index: 10;
+  position: relative;
+  font-size: 16px;
+}
+
+#closebtn {
+  margin-left: 15px;
+  color: black;
+  font-weight: bold;
+  float: left;
+  font-size: 26px;
+  line-height: 23px;
+  cursor: pointer;
+  transition: 0.3s;
+  position: relative;
+  margin-right: 15px;
+}
+
+#closebtn:hover {
     color: white;
-    display: none;
-    z-index: 10;
-    position: relative;
-}
-
-.closebtn {
-    margin-left: 15px;
-    color: white;
-    font-weight: bold;
-    float: right;
-    font-size: 22px;
-    line-height: 20px;
-    cursor: pointer;
-    transition: 0.3s;
-    display: none;
-    z-index: 10;
-    position: relative;
-}
-
-.closebtn:hover {
-    color: black;
-}
-
-@media only screen and (max-width: 500px) {
-  .warning {
-    display: block;
-  }
-  .closebtn {
-    display: block;
-  }
 }
