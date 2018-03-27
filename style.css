@@ -723,6 +723,17 @@ label[for=window98], label[for=window98settings], label[for=windowhelp], label[f
   font-size: 16px;
 }
 
+#warningbg {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9;
+  background-color: black;
+  opacity: 0.75;
+}
+
 #closebtn {
   margin-left: 15px;
   color: black;
