@@ -371,7 +371,7 @@ td:nth-child(2) {
   border-radius: 0 0 1px 1px;
   background-color: rgb(240, 240, 240);
   margin-top: -16px;
-  top: 480px;
+  top: 440px;
   left: 390px;
   position: absolute;
   font-size: .7em;
@@ -393,7 +393,7 @@ td:nth-child(2) {
   font-family: 'Source Sans Pro', sans-serif;
   border-radius: 1px 1px 0 0;
   visibility: hidden;
-  top: 444px;
+  top: 404px;
   left: 390px;
   position: absolute;
   cursor: move;
@@ -429,7 +429,7 @@ td:nth-child(2) {
   margin-top: -16px;
   position: absolute;
   font-size: .7em;
-  top: 510px;
+  top: 360px;
   left: 430px;
   /* Border stuff */
   border-color: rgb(220, 220, 220);
@@ -450,7 +450,7 @@ td:nth-child(2) {
   border-radius: 1px 1px 0 0;
   visibility: hidden;
   position: relative;
-  top: 474px;
+  top: 324px;
   left: 430px;
   cursor: move;
   /* Shadow */
@@ -472,7 +472,7 @@ td:nth-child(2) {
   margin-top: -16px;
   position: absolute;
   font-size: .7em;
-  top: 550px;
+  top: 500px;
   left: 470px;
   /* Border stuff */
   border-color: rgb(220, 220, 220);
@@ -493,7 +493,7 @@ td:nth-child(2) {
   border-radius: 1px 1px 0 0;
   visibility: hidden;
   position: absolute;
-  top: 514px;
+  top: 464px;
   left: 470px;
   cursor: move;
   /* Shadow */
@@ -720,7 +720,7 @@ label[for=window98], label[for=window98settings], label[for=windowhelp], label[f
   visibility: hidden;
   z-index: 10;
   position: relative;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 #warningbg {
