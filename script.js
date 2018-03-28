@@ -563,6 +563,18 @@ function changebgPink() {
 function changebgBlue() {
   document.body.style.backgroundImage = "url('bluebg.svg')";
 }
+function changebgOrange() {
+  document.body.style.backgroundImage = "url('orangebg.svg')";
+}
+function changebgMint() {
+  document.body.style.backgroundImage = "url('mintbg.svg')";
+}
+function changebgJBlack() {
+  document.body.style.backgroundImage = "url('jpnblackbg.svg')";
+}
+function changebgJPink() {
+  document.body.style.backgroundImage = "url('jpnpinkbg.svg')";
+}
 
 // Z-Index
 document.getElementById("visualizer").addEventListener("mousedown", visualizerFront);

@@ -463,9 +463,9 @@ td:nth-child(2) {
 }
 
 #window3content {
-  width: 324px;
+  width: 329px;
   visibility: hidden;
-  height: 75px;
+  height: 165px;
   padding: 8px 10px 8px 10px;
   border-radius: 0 0 1px 1px;
   background-color: rgb(240, 240, 240);
@@ -486,7 +486,7 @@ td:nth-child(2) {
 #window3header {
   background-color: rgb(220, 220, 220);
   height: 20px;
-  width: 330px;
+  width: 335px;
   padding: 0 10px 0 10px;
   font-size: .9em;
   font-family: 'Source Sans Pro', sans-serif;
@@ -709,6 +709,67 @@ label[for=window98], label[for=window98settings], label[for=windowhelp], label[f
 }
 
 #bluebg:hover {
+  opacity: 0.7;
+}
+
+/* Second row */
+#orangebg {
+  background: url("orangebg.svg");
+  background-repeat: no-repeat;
+  background-size: 150px;
+  background-position: left bottom;
+  margin-right: 5px;
+  width: 75px;
+  height: 75px;
+  transition: .5s ease;
+}
+
+#orangebg:hover {
+  opacity: 0.7;
+}
+
+#mintbg {
+  background: url("mintbg.svg");
+  background-repeat: no-repeat;
+  background-size: 150px;
+  background-position: right top;
+  margin-right: 5px;
+  width: 75px;
+  height: 75px;
+  transition: .5s ease;
+}
+
+#mintbg:hover {
+  opacity: 0.7;
+}
+
+#jpnblackbg {
+  background: url("jpnblackbg.svg");
+  background-repeat: no-repeat;
+  background-size: 150px;
+  background-position: left bottom;
+  margin-right: 5px;
+  width: 75px;
+  height: 75px;
+  transition: .5s ease;
+}
+
+#jpnblackbg:hover {
+  opacity: 0.7;
+}
+
+#jpnpinkbg {
+  background: url("jpnpinkbg.svg");
+  background-repeat: no-repeat;
+  background-size: 150px;
+  background-position: right top;
+  margin-right: 5px;
+  width: 75px;
+  height: 75px;
+  transition: .5s ease;
+}
+
+#jpnpinkbg:hover {
   opacity: 0.7;
 }
 
