@@ -744,7 +744,7 @@ label[for=window98], label[for=window98settings], label[for=windowhelp], label[f
 }
 
 #jpnblackbg {
-  background: url("jpnblackbg.svg");
+  background: url("jpnblackbg.jpg");
   background-repeat: no-repeat;
   background-size: 150px;
   background-position: left bottom;
@@ -759,10 +759,10 @@ label[for=window98], label[for=window98settings], label[for=windowhelp], label[f
 }
 
 #jpnpinkbg {
-  background: url("jpnpinkbg.svg");
+  background: url("jpnpinkbg.jpg");
   background-repeat: no-repeat;
   background-size: 150px;
-  background-position: right top;
+  background-position: right bottom;
   margin-right: 5px;
   width: 75px;
   height: 75px;

@@ -570,10 +570,10 @@ function changebgMint() {
   document.body.style.backgroundImage = "url('mintbg.svg')";
 }
 function changebgJBlack() {
-  document.body.style.backgroundImage = "url('jpnblackbg.svg')";
+  document.body.style.backgroundImage = "url('jpnblackbg.jpg')";
 }
 function changebgJPink() {
-  document.body.style.backgroundImage = "url('jpnpinkbg.svg')";
+  document.body.style.backgroundImage = "url('jpnpinkbg.jpg')";
 }
 
 // Z-Index
