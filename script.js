@@ -257,49 +257,40 @@ function trackTime() {
 
 // icons
 function showWindow1() {
-  document.getElementById('window1').style.visibility = "visible";
-  document.getElementById('window1header').style.visibility = "visible";
-  document.getElementById('window1content').style.visibility = "visible";
+  document.getElementById('window1').style.display = "block";
+  document.getElementById('window1header').style.display = "block";
+  document.getElementById('window1content').style.display = "block";
   document.getElementById('windowhelp').style.display = "inline-block";
   window1Front();
 }
 
 function showWindow2() {
-  document.getElementById('window2').style.visibility = "visible";
-  document.getElementById('window2header').style.visibility = "visible";
-  document.getElementById('window2content').style.visibility = "visible";
+  document.getElementById('window2').style.display = "block";
+  document.getElementById('window2header').style.display = "block";
+  document.getElementById('window2content').style.display = "block";
   document.getElementById('windowabout').style.display = "inline-block";
   window2Front();
 }
 
 function showWindow3() {
-  document.getElementById('window3').style.visibility = "visible";
-  document.getElementById('window3header').style.visibility = "visible";
-  document.getElementById('window3content').style.visibility = "visible";
+  document.getElementById('window3').style.display = "block";
+  document.getElementById('window3header').style.display = "block";
+  document.getElementById('window3content').style.display = "block";
   document.getElementById('windowthemes').style.display = "inline-block";
   window3Front();
 }
 
 // close buttons
 function closeWindow1() {
-  document.getElementById('window1').style.visibility = "hidden";
-  document.getElementById('window1header').style.visibility = "hidden";
-  document.getElementById('window1content').style.visibility = "hidden";
-  document.getElementById('windowhelp').style.display = "none";
+  document.getElementById('window1').style.display = "none";
 }
 
 function closeWindow2() {
-  document.getElementById('window2').style.visibility = "hidden";
-  document.getElementById('window2header').style.visibility = "hidden";
-  document.getElementById('window2content').style.visibility = "hidden";
-  document.getElementById('windowabout').style.display = "none";
+  document.getElementById('window2').style.display = "none";
 }
 
 function closeWindow3() {
-  document.getElementById('window3').style.visibility = "hidden";
-  document.getElementById('window3header').style.visibility = "hidden";
-  document.getElementById('window3content').style.visibility = "hidden";
-  document.getElementById('windowthemes').style.display = "none";
+  document.getElementById('window3').style.display = "none";
 }
 
 // Show / Hide Spans

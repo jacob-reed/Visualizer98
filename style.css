@@ -366,7 +366,7 @@ td:nth-child(2) {
   width: 399px;
   max-height: 300px;
   overflow-y: auto;
-  visibility: hidden;
+  display: none;
   padding: 8px 10px 8px 10px;
   border-radius: 0 0 1px 1px;
   background-color: rgb(240, 240, 240);
@@ -392,7 +392,7 @@ td:nth-child(2) {
   font-size: .9em;
   font-family: 'Source Sans Pro', sans-serif;
   border-radius: 1px 1px 0 0;
-  visibility: hidden;
+  display: none;
   top: 404px;
   left: 390px;
   position: absolute;
@@ -420,7 +420,7 @@ td:nth-child(2) {
 
 #window2content {
   width: 350px;
-  visibility: hidden;
+  display: none;
   max-height: 225px;
   overflow-y: auto;
   padding: 8px 10px 8px 10px;
@@ -448,7 +448,7 @@ td:nth-child(2) {
   font-size: .9em;
   font-family: 'Source Sans Pro', sans-serif;
   border-radius: 1px 1px 0 0;
-  visibility: hidden;
+  display: none;
   position: relative;
   top: 324px;
   left: 430px;
@@ -464,7 +464,7 @@ td:nth-child(2) {
 
 #window3content {
   width: 329px;
-  visibility: hidden;
+  display: none;
   height: 165px;
   padding: 8px 10px 8px 10px;
   border-radius: 0 0 1px 1px;
@@ -491,7 +491,7 @@ td:nth-child(2) {
   font-size: .9em;
   font-family: 'Source Sans Pro', sans-serif;
   border-radius: 1px 1px 0 0;
-  visibility: hidden;
+  display: none;
   position: absolute;
   top: 464px;
   left: 470px;
