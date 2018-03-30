@@ -543,28 +543,28 @@ function dragElement(elmnt) {
 
 // Change background
 function changebgWhite() {
-  document.body.style.backgroundImage = "url('whitebg.svg')";
+  document.body.style.backgroundImage = "url('images/whitebg.svg')";
 }
 function changebgBlack() {
-  document.body.style.backgroundImage = "url('blackbg.svg')";
+  document.body.style.backgroundImage = "url('images/blackbg.svg')";
 }
 function changebgPink() {
-  document.body.style.backgroundImage = "url('pinkbg.svg')";
+  document.body.style.backgroundImage = "url('images/pinkbg.svg')";
 }
 function changebgBlue() {
-  document.body.style.backgroundImage = "url('bluebg.svg')";
+  document.body.style.backgroundImage = "url('images/bluebg.svg')";
 }
 function changebgOrange() {
-  document.body.style.backgroundImage = "url('orangebg.svg')";
+  document.body.style.backgroundImage = "url('images/orangebg.svg')";
 }
 function changebgMint() {
-  document.body.style.backgroundImage = "url('mintbg.svg')";
+  document.body.style.backgroundImage = "url('images/mintbg.svg')";
 }
 function changebgJBlack() {
-  document.body.style.backgroundImage = "url('jpnblackbg.jpg')";
+  document.body.style.backgroundImage = "url('images/jpnblackbg.jpg')";
 }
 function changebgJPink() {
-  document.body.style.backgroundImage = "url('jpnpinkbg.jpg')";
+  document.body.style.backgroundImage = "url('images/jpnpinkbg.jpg')";
 }
 
 // Change theme

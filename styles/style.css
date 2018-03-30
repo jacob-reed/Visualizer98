@@ -2,7 +2,7 @@
 body {
   /* background: rgb(98, 124, 204); */
   /* background: linear-gradient(135deg, rgb(0, 170, 170), rgb(0, 110, 110)); */
-  background-image: url("bluebg.svg");
+  background-image: url("../images/bluebg.svg");
   background-repeat: repeat;
   background-size: 1000px 1000px;
 
@@ -654,7 +654,7 @@ label[for=window98], label[for=window98settings], label[for=windowhelp], label[f
 
 /* Wallpaper Buttons */
 #whitebg {
-  background: url("whitebg.svg");
+  background: url("../images/whitebg.svg");
   background-repeat: no-repeat;
   background-size: 200px;
   background-position: center center;
@@ -673,7 +673,7 @@ label[for=window98], label[for=window98settings], label[for=windowhelp], label[f
 }
 
 #blackbg {
-  background: url("blackbg.svg");
+  background: url("../images/blackbg.svg");
   background-repeat: no-repeat;
   background-size: 200px;
   background-position: left bottom;
@@ -692,7 +692,7 @@ label[for=window98], label[for=window98settings], label[for=windowhelp], label[f
 }
 
 #pinkbg {
-  background: url("pinkbg.svg");
+  background: url("../images/pinkbg.svg");
   background-repeat: no-repeat;
   background-size: 150px;
   background-position: right top;
@@ -711,7 +711,7 @@ label[for=window98], label[for=window98settings], label[for=windowhelp], label[f
 }
 
 #bluebg {
-  background: url("bluebg.svg");
+  background: url("../images/bluebg.svg");
   background-repeat: no-repeat;
   background-size: 150px;
   background-position: left bottom;
@@ -731,7 +731,7 @@ label[for=window98], label[for=window98settings], label[for=windowhelp], label[f
 
 /* Second row */
 #orangebg {
-  background: url("orangebg.svg");
+  background: url("../images/orangebg.svg");
   background-repeat: no-repeat;
   background-size: 150px;
   background-position: left bottom;
@@ -750,7 +750,7 @@ label[for=window98], label[for=window98settings], label[for=windowhelp], label[f
 }
 
 #mintbg {
-  background: url("mintbg.svg");
+  background: url("../images/mintbg.svg");
   background-repeat: no-repeat;
   background-size: 150px;
   background-position: right top;
@@ -769,7 +769,7 @@ label[for=window98], label[for=window98settings], label[for=windowhelp], label[f
 }
 
 #jpnblackbg {
-  background: url("jpnblackbg.jpg");
+  background: url("../images/jpnblackbg.jpg");
   background-repeat: no-repeat;
   background-size: 150px;
   background-position: left bottom;
@@ -788,7 +788,7 @@ label[for=window98], label[for=window98settings], label[for=windowhelp], label[f
 }
 
 #jpnpinkbg {
-  background: url("jpnpinkbg.jpg");
+  background: url("../images/jpnpinkbg.jpg");
   background-repeat: no-repeat;
   background-size: 150px;
   background-position: right bottom;
@@ -807,7 +807,7 @@ label[for=window98], label[for=window98settings], label[for=windowhelp], label[f
 }
 
 #darkbg {
-  background: url("dark.jpg");
+  background: url("../images/dark.jpg");
   background-repeat: no-repeat;
   background-size: 90px;
   background-position: center;
@@ -825,7 +825,7 @@ label[for=window98], label[for=window98settings], label[for=windowhelp], label[f
 }
 
 #lightbg {
-  background: url("light.jpg");
+  background: url("../images/light.jpg");
   background-repeat: no-repeat;
   background-size: 90px;
   background-position: center;
@@ -863,21 +863,4 @@ label[for=window98], label[for=window98settings], label[for=windowhelp], label[f
   background-color: black;
   opacity: 0.75;
   visibility: hidden;
-}
-
-#closebtn {
-  margin-left: 15px;
-  color: black;
-  font-weight: bold;
-  float: left;
-  font-size: 26px;
-  line-height: 23px;
-  cursor: pointer;
-  transition: 0.3s;
-  position: relative;
-  margin-right: 15px;
-}
-
-#closebtn:hover {
-    color: white;
 }
