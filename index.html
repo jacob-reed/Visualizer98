@@ -1,8 +1,9 @@
+<!DOCTYPE html>
 <html>
 
 <head>
   <title>Visualizer 98</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles/style.css">
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 </head>
 
@@ -14,7 +15,6 @@
     <div id="warningbg">
     </div>
     <div id="warning">
-        <span id="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
         <strong>Sorry!</strong> Visualizer 98 does not support mobile browsers.
     </div>
 
@@ -24,8 +24,8 @@
       <div id="visualizerheader">
         <i class="fas fa-music"></i>
         <label for="visualizerTop">Visualizer 98</label>
-        <span id="visualizerFile"></label>
-    </div>
+        <span id="visualizerFile"></span>
+      </div>
     <!-- Draw canvas for visualizer -->
     <canvas id="canvas"></canvas>
     <!-- Display audio controls -->
@@ -104,15 +104,15 @@
   <!-- Icons -->
   <div id="icons">
     <div id="icon1" onclick="showWindow1()">
-      <img src="Help.svg"></img><br>
+      <img src="images/Help.svg"><br>
       <p>Help</p>
     </div>
     <div id="icon2" onclick="showWindow2()">
-      <img src="About.svg"></img><br>
+      <img src="images/About.svg"><br>
       <p>About</p>
     </div>
     <div id="icon3" onclick="showWindow3()">
-      <img src="Settings.svg"></img><br>
+      <img src="images/Settings.svg"><br>
       <p>Themes</p>
     </div>
   </div>
@@ -177,7 +177,7 @@
           Icons and wallpapers were created using Adobe Illustrator and converted to SVG for quick loading.
           A number of JavaScript (draggable windows, for example) and CSS tweaks give the environment the look and feel of a desktop experience from yesteryear.
           Big thanks to <a href="https://fontawesome.com/">FontAwesome</a> for making the free-to-use vector icons.
-        </br></br>
+        <br><br>
           I hope you enjoy your time using Visualizer 98! <a href="contact.html">Contact me</a> with any questions or comments.
         </p>
       </div>
