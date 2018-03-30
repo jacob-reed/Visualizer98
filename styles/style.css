@@ -11,12 +11,19 @@ body {
   width: 100%;
   min-width: 910px;
   position: absolute;
-
   /* Disable text selection when dragging */
   -webkit-user-select: none;
      -moz-user-select: -moz-none;
       -ms-user-select: none;
           user-select: none;
+}
+
+h3 {
+  transition: all .2s ease-in-out;
+}
+
+h3:hover {
+  font-size: 1.20em;
 }
 
 #visualizerheader {
@@ -74,11 +81,11 @@ label[for=visualizerheader] {
   margin-top: 4px;
   margin-left: 4px;
   float: left;
-  transition: background-color 0.5s ease;
+  transition: all 0.2s ease;
 }
 
 .inputfile:focus+label, .inputfile+label:hover {
-  opacity: 0.7;
+  transform: scale(1.05);
 }
 
 .inputfile+label {
@@ -107,11 +114,11 @@ label[for=visualizerheader] {
   cursor: pointer;
   text-align: center;
   background-color: rgb(225, 225, 225);
-  transition: background-color 0.5s ease;
+  transition: all .2s ease-in-out;
 }
 
 #playButton:hover {
-  opacity: 0.7;
+  transform: scale(1.05);
 }
 
 .inputfile:focus+label, .inputfile+label:hover {
@@ -297,11 +304,11 @@ td:nth-child(2) {
   cursor: pointer;
   width: 50px;
   height: 70px;
-  transition: color 0.5s ease;
+  transition: all .2s ease-in-out;
 }
 
 #icon1:hover {
-  color: rgb(200,200,200);
+  transform: scale(1.05);
 }
 
 #icon2 {
@@ -313,11 +320,11 @@ td:nth-child(2) {
   cursor: pointer;
   width: 50px;
   height: 70px;
-  transition: color 0.5s ease;
+  transition: all .2s ease-in-out;
 }
 
 #icon2:hover {
-  color: rgb(200,200,200);
+  transform: scale(1.05);
 }
 
 #icon3 {
@@ -329,11 +336,11 @@ td:nth-child(2) {
   cursor: pointer;
   width: 50px;
   height: 70px;
-  transition: color 0.5s ease;
+  transition: all .2s ease-in-out;
 }
 
 #icon3:hover {
-  color: rgb(200,200,200);
+  transform: scale(1.05);
 }
 
 #icon1 p {
@@ -370,6 +377,7 @@ td:nth-child(2) {
 
 #window1content {
   width: 399px;
+  height: 100px;
   max-height: 300px;
   overflow-y: auto;
   display: none;
@@ -611,12 +619,13 @@ td:nth-child(2) {
   padding-top: 2px;
   margin-left: 5px;
   font-size: 15px;
-  transition: color 0.5s ease;
+  transition: all .3s ease-in-out;
   color: rgb(0, 0, 0);
 }
 
 .fa-user-circle:hover {
   color: rgb(196, 43, 144);
+  transform: scale(1.15);
 }
 
 #showTime {
@@ -634,6 +643,11 @@ td:nth-child(2) {
 
 .fa-stop {
   color: red;
+  transition: all .2s ease;
+}
+
+.fa-stop:hover {
+  transform: scale(1.25);
 }
 
 label[for=window1close], label[for=window2close], label[for=window3close] {
@@ -666,7 +680,7 @@ label[for=window98], label[for=window98settings], label[for=windowhelp], label[f
   margin-right: 5px;
   width: 75px;
   height: 75px;
-  transition: .5s ease;
+  transition: all .2s ease-in-out;
   /* Border stuff */
   border-style: solid;
   border-radius: .5px;
@@ -674,7 +688,7 @@ label[for=window98], label[for=window98settings], label[for=windowhelp], label[f
 }
 
 #whitebg:hover {
-  opacity: 0.7;
+  transform: scale(1.1);
 }
 
 #blackbg {
@@ -685,7 +699,7 @@ label[for=window98], label[for=window98settings], label[for=windowhelp], label[f
   margin-right: 5px;
   width: 75px;
   height: 75px;
-  transition: .5s ease;
+  transition: all .2s ease-in-out;
   /* Border stuff */
   border-style: solid;
   border-radius: .5px;
@@ -693,7 +707,7 @@ label[for=window98], label[for=window98settings], label[for=windowhelp], label[f
 }
 
 #blackbg:hover {
-  opacity: 0.7;
+  transform: scale(1.1);
 }
 
 #pinkbg {
@@ -704,7 +718,7 @@ label[for=window98], label[for=window98settings], label[for=windowhelp], label[f
   margin-right: 5px;
   width: 75px;
   height: 75px;
-  transition: .5s ease;
+  transition: all .2s ease-in-out;
   /* Border stuff */
   border-style: solid;
   border-radius: .5px;
@@ -712,7 +726,7 @@ label[for=window98], label[for=window98settings], label[for=windowhelp], label[f
 }
 
 #pinkbg:hover {
-  opacity: 0.7;
+  transform: scale(1.1);
 }
 
 #bluebg {
@@ -723,7 +737,7 @@ label[for=window98], label[for=window98settings], label[for=windowhelp], label[f
   margin-right: 5px;
   width: 75px;
   height: 75px;
-  transition: .5s ease;
+  transition: all .2s ease-in-out;
   /* Border stuff */
   border-style: solid;
   border-radius: .5px;
@@ -731,7 +745,7 @@ label[for=window98], label[for=window98settings], label[for=windowhelp], label[f
 }
 
 #bluebg:hover {
-  opacity: 0.7;
+  transform: scale(1.1);
 }
 
 /* Second row */
@@ -743,7 +757,7 @@ label[for=window98], label[for=window98settings], label[for=windowhelp], label[f
   margin-right: 5px;
   width: 75px;
   height: 75px;
-  transition: .5s ease;
+  transition: all .2s ease-in-out;
   /* Border stuff */
   border-style: solid;
   border-radius: .5px;
@@ -751,7 +765,7 @@ label[for=window98], label[for=window98settings], label[for=windowhelp], label[f
 }
 
 #orangebg:hover {
-  opacity: 0.7;
+  transform: scale(1.1);
 }
 
 #mintbg {
@@ -762,7 +776,7 @@ label[for=window98], label[for=window98settings], label[for=windowhelp], label[f
   margin-right: 5px;
   width: 75px;
   height: 75px;
-  transition: .5s ease;
+  transition: all .2s ease-in-out;
   /* Border stuff */
   border-style: solid;
   border-radius: .5px;
@@ -770,7 +784,7 @@ label[for=window98], label[for=window98settings], label[for=windowhelp], label[f
 }
 
 #mintbg:hover {
-  opacity: 0.7;
+  transform: scale(1.1);
 }
 
 #jpnblackbg {
@@ -781,7 +795,7 @@ label[for=window98], label[for=window98settings], label[for=windowhelp], label[f
   margin-right: 5px;
   width: 75px;
   height: 75px;
-  transition: .5s ease;
+  transition: all .2s ease-in-out;
   /* Border stuff */
   border-style: solid;
   border-radius: .5px;
@@ -789,7 +803,7 @@ label[for=window98], label[for=window98settings], label[for=windowhelp], label[f
 }
 
 #jpnblackbg:hover {
-  opacity: 0.7;
+  transform: scale(1.1);
 }
 
 #jpnpinkbg {
@@ -800,7 +814,7 @@ label[for=window98], label[for=window98settings], label[for=windowhelp], label[f
   margin-right: 5px;
   width: 75px;
   height: 75px;
-  transition: .5s ease;
+  transition: all .2s ease-in-out;
   /* Border stuff */
   border-style: solid;
   border-radius: .5px;
@@ -808,7 +822,7 @@ label[for=window98], label[for=window98settings], label[for=windowhelp], label[f
 }
 
 #jpnpinkbg:hover {
-  opacity: 0.7;
+  transform: scale(1.1);
 }
 
 #darkbg {
@@ -818,7 +832,7 @@ label[for=window98], label[for=window98settings], label[for=windowhelp], label[f
   background-position: center;
   width: 75px;
   height: 75px;
-  transition: .5s ease;
+  transition: all .2s ease-in-out;
   /* Border stuff */
   border-style: solid;
   border-radius: .5px;
@@ -826,7 +840,7 @@ label[for=window98], label[for=window98settings], label[for=windowhelp], label[f
 }
 
 #darkbg:hover {
-  opacity: 0.7;
+  transform: scale(1.1);
 }
 
 #lightbg {
@@ -836,7 +850,7 @@ label[for=window98], label[for=window98settings], label[for=windowhelp], label[f
   background-position: center;
   width: 75px;
   height: 75px;
-  transition: .5s ease;
+  transition: all .2s ease-in-out;
   /* Border stuff */
   border-style: solid;
   border-radius: .5px;
@@ -844,7 +858,7 @@ label[for=window98], label[for=window98settings], label[for=windowhelp], label[f
 }
 
 #lightbg:hover {
-  opacity: 0.7;
+  transform: scale(1.1);
 }
 
 /* Warning banner */
