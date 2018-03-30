@@ -567,6 +567,148 @@ function changebgJPink() {
   document.body.style.backgroundImage = "url('jpnpinkbg.jpg')";
 }
 
+// Change theme
+// Dark theme
+function changebgDark() {
+  // Colors
+  var dark = "rgb(110, 110, 110)";
+  var darker = "rgb(80, 80, 80)";
+  var light = "rgb(130, 130, 130)";
+  var lighter = "rgb(190, 190, 190)";
+  var white = "rgb(255, 255, 255)";
+
+  // Task bar (footer)
+  document.getElementById("footerWindows").style.backgroundColor = darker;
+  document.getElementById("startFooter").style.backgroundColor = darker;
+  document.getElementById("footer").style.backgroundColor = darker;
+  document.getElementById("footer").style.backgroundColor = darker;
+  document.getElementById("footer").style.color = white;
+  // Task bar windows
+  document.getElementById("window98").style.backgroundColor = dark;
+  document.getElementById("window98settings").style.backgroundColor = dark;
+  document.getElementById("windowhelp").style.backgroundColor = dark;
+  document.getElementById("windowabout").style.backgroundColor = dark;
+  document.getElementById("windowthemes").style.backgroundColor = dark;
+  // Window headers
+  document.getElementById("visualizerheader").style.backgroundColor = darker;
+  document.getElementById("settingsheader").style.backgroundColor = darker;
+  document.getElementById("window1header").style.backgroundColor = darker;
+  document.getElementById("window2header").style.backgroundColor = darker;
+  document.getElementById("window3header").style.backgroundColor = darker;
+  // Window header fonts
+  document.getElementById("visualizerheader").style.color = white;
+  document.getElementById("settingsheader").style.color = white;
+  document.getElementById("window1header").style.color = white;
+  document.getElementById("window2header").style.color = white;
+  document.getElementById("window3header").style.color = white;
+  // Window elements
+  document.getElementById("audioPlayer").style.backgroundColor = light;
+  document.getElementById("settingswindow").style.backgroundColor = light;
+  document.getElementById("window1content").style.backgroundColor = light;
+  document.getElementById("window2content").style.backgroundColor = light;
+  document.getElementById("window3content").style.backgroundColor = light;
+  // Window borders
+  document.getElementById("settingswindow").style.borderColor = dark;
+  document.getElementById("window1content").style.borderColor = dark;
+  document.getElementById("window2content").style.borderColor = dark;
+  document.getElementById("window3content").style.borderColor = dark;
+  // Window fonts
+  document.getElementById("settingswindow").style.color = white;
+  document.getElementById("window1content").style.color = white;
+  document.getElementById("window2content").style.color = white;
+  document.getElementById("window3content").style.color = white;
+  // Buttons and other elements | Visualizer
+  document.getElementById("uploadbutton").style.backgroundColor = dark;
+  document.getElementById("uploadbutton").style.color = white;
+  document.getElementById("playButton").style.backgroundColor = dark;
+  // document.getElementById("playButton").style.color = white;
+  document.getElementById("timeline").style.backgroundColor = dark;
+  // document.getElementById("seeker").style.backgroundColor = white;
+  document.getElementById("trackTime").style.color = white;
+  // Buttons and other elements | Settings
+  document.getElementById("settingsTable").style.color = white;
+  document.getElementById("selectBarColor").style.backgroundColor = dark;
+  document.getElementById("selectBGColor").style.backgroundColor = dark;
+  document.getElementById("selectBarWidth").style.backgroundColor = dark;
+  document.getElementById("selectSmoothing").style.backgroundColor = dark;
+  document.getElementById("selectStyle").style.backgroundColor = dark;
+  var slider = document.getElementsByClassName("slider");
+    var s;
+    for (s = 0; s < slider.length; s++) {
+        slider[s].style.backgroundColor = "dark";
+    }
+}
+
+// Light theme
+function changebgLight() {
+  // Colors
+  var footer = "rgb(240, 240, 240)";
+  var muchlighter = "rgb(230, 230, 230)";
+  var headers = "rgb(220, 220, 220)";
+  var black = "rgb(0, 0, 0)";
+  var button = "rgb(225, 225, 225)";
+
+  // Task bar (footer)
+  document.getElementById("footerWindows").style.backgroundColor = footer;
+  document.getElementById("startFooter").style.backgroundColor = footer;
+  document.getElementById("footer").style.backgroundColor = footer;
+  document.getElementById("footer").style.color = black;
+  // Task bar windows
+  document.getElementById("window98").style.backgroundColor = muchlighter;
+  document.getElementById("window98settings").style.backgroundColor = muchlighter;
+  document.getElementById("windowhelp").style.backgroundColor = muchlighter;
+  document.getElementById("windowabout").style.backgroundColor = muchlighter;
+  document.getElementById("windowthemes").style.backgroundColor = muchlighter;
+  // Window headers
+  document.getElementById("visualizerheader").style.backgroundColor = headers;
+  document.getElementById("settingsheader").style.backgroundColor = headers;
+  document.getElementById("window1header").style.backgroundColor = headers;
+  document.getElementById("window2header").style.backgroundColor = headers;
+  document.getElementById("window3header").style.backgroundColor = headers;
+  // Window header fonts
+  document.getElementById("visualizerheader").style.color = black;
+  document.getElementById("settingsheader").style.color = black;
+  document.getElementById("window1header").style.color = black;
+  document.getElementById("window2header").style.color = black;
+  document.getElementById("window3header").style.color = black;
+  // Window elements
+  document.getElementById("audioPlayer").style.backgroundColor = footer;
+  document.getElementById("settingswindow").style.backgroundColor = footer;
+  document.getElementById("window1content").style.backgroundColor = footer;
+  document.getElementById("window2content").style.backgroundColor = footer;
+  document.getElementById("window3content").style.backgroundColor = footer;
+  // Window borders
+  document.getElementById("settingswindow").style.borderColor = headers;
+  document.getElementById("window1content").style.borderColor = headers;
+  document.getElementById("window2content").style.borderColor = headers;
+  document.getElementById("window3content").style.borderColor = headers;
+  // Window fonts
+  document.getElementById("settingswindow").style.color = black;
+  document.getElementById("window1content").style.color = black;
+  document.getElementById("window2content").style.color = black;
+  document.getElementById("window3content").style.color = black;
+  // Buttons and other elements | Visualizer
+  document.getElementById("uploadbutton").style.backgroundColor = button;
+  document.getElementById("uploadbutton").style.color = black;
+  document.getElementById("playButton").style.backgroundColor = button;
+  // document.getElementById("playButton").style.color = white;
+  document.getElementById("timeline").style.backgroundColor = button;
+  // document.getElementById("seeker").style.backgroundColor = white;
+  document.getElementById("trackTime").style.color = black;
+  // Buttons and other elements | Settings
+  document.getElementById("settingsTable").style.color = black;
+  document.getElementById("selectBarColor").style.backgroundColor = button;
+  document.getElementById("selectBGColor").style.backgroundColor = button;
+  document.getElementById("selectBarWidth").style.backgroundColor = button;
+  document.getElementById("selectSmoothing").style.backgroundColor = button;
+  document.getElementById("selectStyle").style.backgroundColor = button;
+  var slider = document.getElementsByClassName("slider");
+    var s;
+    for (s = 0; s < slider.length; s++) {
+        slider[s].style.backgroundColor = "button";
+    }
+}
+
 // Z-Index
 document.getElementById("visualizer").addEventListener("mousedown", visualizerFront);
 function visualizerFront() {
@@ -619,3 +761,5 @@ if (viewport < 600) {
   document.getElementById("warning").style.visibility = "visible";
   document.getElementById("warningbg").style.visibility = "visible";
 }
+
+// Window Themes

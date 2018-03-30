@@ -78,7 +78,7 @@ label[for=visualizerheader] {
 }
 
 .inputfile:focus+label, .inputfile+label:hover {
-  background-color: rgb(192, 192, 192);
+  opacity: 0.7;
 }
 
 .inputfile+label {
@@ -110,11 +110,11 @@ label[for=visualizerheader] {
 }
 
 #playButton:hover {
-  background-color: rgb(192, 192, 192);
+  opacity: 0.7;
 }
 
 .inputfile:focus+label, .inputfile+label:hover {
-  background-color: rgb(192, 192, 192);
+  opacity: 0.7;
 }
 
 #pauseIcon {
@@ -212,11 +212,11 @@ label[for=settings] {
   background-color: rgb(225, 225, 225);
   cursor: pointer;
   max-width: 126px; /* For Firefox compatability */
-  transition: background-color 0.5s ease;
+  transition: opacity 0.5s ease;
 }
 
 #selectBarColor:hover, #selectBGColor:hover {
-  background-color: rgb(192, 192, 192);
+  opacity: 0.7;
 }
 td:nth-child(2) {
   text-align: center;
@@ -270,11 +270,11 @@ td:nth-child(2) {
 }
 
 #seeker:hover, .slider::-webkit-slider-thumb:hover {
-    background-color: rgb(70, 70, 70);
+    opacity: 0.7;
 }
 
 .slider::-moz-range-thumb:hover {
-    background-color: rgb(70, 70, 70);
+    opacity: 0.7;
 }
 
 /* Icons */
@@ -463,7 +463,7 @@ td:nth-child(2) {
 }
 
 #window3content {
-  width: 329px;
+  width: 407px;
   display: none;
   height: 165px;
   padding: 8px 10px 8px 10px;
@@ -486,7 +486,7 @@ td:nth-child(2) {
 #window3header {
   background-color: rgb(220, 220, 220);
   height: 20px;
-  width: 335px;
+  width: 413px;
   padding: 0 10px 0 10px;
   font-size: .9em;
   font-family: 'Source Sans Pro', sans-serif;
@@ -662,6 +662,10 @@ label[for=window98], label[for=window98settings], label[for=windowhelp], label[f
   width: 75px;
   height: 75px;
   transition: .5s ease;
+  /* Border stuff */
+  border-style: solid;
+  border-radius: .5px;
+  border-color: rgb(220, 220, 220);
 }
 
 #whitebg:hover {
@@ -677,6 +681,10 @@ label[for=window98], label[for=window98settings], label[for=windowhelp], label[f
   width: 75px;
   height: 75px;
   transition: .5s ease;
+  /* Border stuff */
+  border-style: solid;
+  border-radius: .5px;
+  border-color: rgb(220, 220, 220);
 }
 
 #blackbg:hover {
@@ -692,6 +700,10 @@ label[for=window98], label[for=window98settings], label[for=windowhelp], label[f
   width: 75px;
   height: 75px;
   transition: .5s ease;
+  /* Border stuff */
+  border-style: solid;
+  border-radius: .5px;
+  border-color: rgb(220, 220, 220);
 }
 
 #pinkbg:hover {
@@ -703,9 +715,14 @@ label[for=window98], label[for=window98settings], label[for=windowhelp], label[f
   background-repeat: no-repeat;
   background-size: 150px;
   background-position: left bottom;
+  margin-right: 5px;
   width: 75px;
   height: 75px;
   transition: .5s ease;
+  /* Border stuff */
+  border-style: solid;
+  border-radius: .5px;
+  border-color: rgb(220, 220, 220);
 }
 
 #bluebg:hover {
@@ -722,6 +739,10 @@ label[for=window98], label[for=window98settings], label[for=windowhelp], label[f
   width: 75px;
   height: 75px;
   transition: .5s ease;
+  /* Border stuff */
+  border-style: solid;
+  border-radius: .5px;
+  border-color: rgb(220, 220, 220);
 }
 
 #orangebg:hover {
@@ -737,6 +758,10 @@ label[for=window98], label[for=window98settings], label[for=windowhelp], label[f
   width: 75px;
   height: 75px;
   transition: .5s ease;
+  /* Border stuff */
+  border-style: solid;
+  border-radius: .5px;
+  border-color: rgb(220, 220, 220);
 }
 
 #mintbg:hover {
@@ -752,6 +777,10 @@ label[for=window98], label[for=window98settings], label[for=windowhelp], label[f
   width: 75px;
   height: 75px;
   transition: .5s ease;
+  /* Border stuff */
+  border-style: solid;
+  border-radius: .5px;
+  border-color: rgb(220, 220, 220);
 }
 
 #jpnblackbg:hover {
@@ -767,9 +796,49 @@ label[for=window98], label[for=window98settings], label[for=windowhelp], label[f
   width: 75px;
   height: 75px;
   transition: .5s ease;
+  /* Border stuff */
+  border-style: solid;
+  border-radius: .5px;
+  border-color: rgb(220, 220, 220);
 }
 
 #jpnpinkbg:hover {
+  opacity: 0.7;
+}
+
+#darkbg {
+  background: url("dark.jpg");
+  background-repeat: no-repeat;
+  background-size: 90px;
+  background-position: center;
+  width: 75px;
+  height: 75px;
+  transition: .5s ease;
+  /* Border stuff */
+  border-style: solid;
+  border-radius: .5px;
+  border-color: rgb(220, 220, 220);
+}
+
+#darkbg:hover {
+  opacity: 0.7;
+}
+
+#lightbg {
+  background: url("light.jpg");
+  background-repeat: no-repeat;
+  background-size: 90px;
+  background-position: center;
+  width: 75px;
+  height: 75px;
+  transition: .5s ease;
+  /* Border stuff */
+  border-style: solid;
+  border-radius: .5px;
+  border-color: rgb(220, 220, 220);
+}
+
+#lightbg:hover {
   opacity: 0.7;
 }
 

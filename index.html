@@ -33,7 +33,7 @@
     <div id="audioPlayer">
       <!-- Get and only accept audio files -->
       <input type="file" id="file" accept="audio/*" class="inputfile" >
-      <label for="file"><i class="fas fa-upload"></i> Choose a file...</label>
+      <label for="file" id="uploadbutton"><i class="fas fa-upload"></i> Choose a file...</label>
     	<button id="playButton" class="play" disabled>
         <div id="playIcon"><i class="fas fa-play"></i></div>
         <div id="pauseIcon"><i class="fas fa-pause"></i></div>
@@ -54,7 +54,7 @@
       <label for="settingsheader">Visualizer Settings</label>
     </div>
     <div id="settingswindow">
-      <table>
+      <table id="settingsTable">
         <!-- Bar color -->
         <tr>
           <td><label>Bar Color</label></td>
@@ -194,12 +194,14 @@
         <input type="button" id="blackbg" onclick="changebgBlack()">
         <input type="button" id="pinkbg" onclick="changebgPink()">
         <input type="button" id="bluebg" onclick="changebgBlue()">
+        <input type="button" id="darkbg" onclick="changebgDark()">
         <!-- Second row -->
         <br><br>
         <input type="button" id="orangebg" onclick="changebgOrange()">
         <input type="button" id="mintbg" onclick="changebgMint()">
         <input type="button" id="jpnblackbg" onclick="changebgJBlack()">
         <input type="button" id="jpnpinkbg" onclick="changebgJPink()">
+        <input type="button" id="lightbg" onclick="changebgLight()">
       </div>
     </div>
   </div>
