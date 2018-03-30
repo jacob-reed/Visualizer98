@@ -89,6 +89,7 @@ label[for=visualizerheader] {
 #audioPlayer {
   width: 800px;
   height: 30px;
+  margin-top: -5px;
   border-radius: 0 0 1px 1px;
   background-color: rgb(240, 240, 240);
   /* Shadow */
@@ -213,6 +214,11 @@ label[for=settings] {
   cursor: pointer;
   max-width: 126px; /* For Firefox compatability */
   transition: opacity 0.5s ease;
+}
+
+#barcolorOutput, #bgcolorOutput, #widthOutput, #smoothingOutput, #styleOutput {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 #selectBarColor:hover, #selectBGColor:hover {
@@ -632,7 +638,6 @@ td:nth-child(2) {
 
 label[for=window1close], label[for=window2close], label[for=window3close] {
   float: right;
-  margin-top: 3px;
   cursor: pointer;
 }
 
