@@ -814,7 +814,7 @@ label[for=window98], label[for=window98settings], label[for=windowhelp], label[f
 #darkbg {
   background: url("../images/dark.jpg");
   background-repeat: no-repeat;
-  background-size: 90px;
+  background-size: 75px;
   background-position: center;
   width: 75px;
   height: 75px;
@@ -832,7 +832,7 @@ label[for=window98], label[for=window98settings], label[for=windowhelp], label[f
 #lightbg {
   background: url("../images/light.jpg");
   background-repeat: no-repeat;
-  background-size: 90px;
+  background-size: 75px;
   background-position: center;
   width: 75px;
   height: 75px;
