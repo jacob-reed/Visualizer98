@@ -451,10 +451,10 @@ function changebgDark() {
   document.getElementById("window2content").style.borderColor = dark;
   document.getElementById("window3content").style.borderColor = dark;
   // Window fonts
-  document.getElementById("settingswindow").style.color = white;
-  document.getElementById("window1content").style.color = white;
-  document.getElementById("window2content").style.color = white;
-  document.getElementById("window3content").style.color = white;
+    // document.getElementById("settingswindow").style.color = white;
+    // document.getElementById("window1content").style.color = white;
+    // document.getElementById("window2content").style.color = white;
+    ///document.getElementById("window3content").style.color = white;
   // Buttons and other elements | Visualizer
   document.getElementById("uploadbutton").style.backgroundColor = dark;
   document.getElementById("uploadbutton").style.color = white;
@@ -464,7 +464,7 @@ function changebgDark() {
   // document.getElementById("seeker").style.backgroundColor = white;
   document.getElementById("trackTime").style.color = white;
   // Buttons and other elements | Settings
-  document.getElementById("settingsTable").style.color = white;
+    //document.getElementById("settingsTable").style.color = white;
   document.getElementById("selectBarColor").style.backgroundColor = dark;
   document.getElementById("selectBGColor").style.backgroundColor = dark;
   document.getElementById("selectBarWidth").style.backgroundColor = dark;
