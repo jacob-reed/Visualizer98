@@ -470,11 +470,6 @@ function changebgDark() {
   document.getElementById("selectBarWidth").style.backgroundColor = dark;
   document.getElementById("selectSmoothing").style.backgroundColor = dark;
   document.getElementById("selectStyle").style.backgroundColor = dark;
-  var slider = document.getElementsByClassName("slider");
-    var s;
-    for (s = 0; s < slider.length; s++) {
-        slider[s].style.backgroundColor = "dark";
-    }
 }
 
 // Light theme
