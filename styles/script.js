@@ -283,14 +283,17 @@ function showWindow3() {
 // close buttons
 function closeWindow1() {
   document.getElementById('window1').style.display = "none";
+  document.getElementById('windowhelp').style.display = "none";
 }
 
 function closeWindow2() {
   document.getElementById('window2').style.display = "none";
+  document.getElementById('windowabout').style.display = "none";
 }
 
 function closeWindow3() {
   document.getElementById('window3').style.display = "none";
+  document.getElementById('windowthemes').style.display = "none";
 }
 
 // Show / Hide Spans
@@ -538,9 +541,9 @@ function changebgLight() {
   document.getElementById("selectSmoothing").style.backgroundColor = button;
   document.getElementById("selectStyle").style.backgroundColor = button;
   var slider = document.getElementsByClassName("slider");
-    var s;
-    for (s = 0; s < slider.length; s++) {
-        slider[s].style.backgroundColor = "button";
+    var x;
+    for (x = 0; x < slider.length; x++) {
+        slider[x].style.backgroundColor = "button";
     }
 }
 
